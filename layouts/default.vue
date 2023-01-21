@@ -39,7 +39,7 @@ const drawerToggleID = 'navbar_drawer'
         <nav class="hidden flex-none lg:block">
           <ul class="menu menu-horizontal">
             <li v-for="(i, index) in menu" :key="index">
-              <NuxtLink :to="i.to">{{ i.label }}</NuxtLink>
+              <NuxtLink :to="{ name: i.to }">{{ i.label }}</NuxtLink>
             </li>
           </ul>
         </nav>
@@ -59,7 +59,7 @@ const drawerToggleID = 'navbar_drawer'
       <label :for="drawerToggleID" class="drawer-overlay" />
       <ul class="menu w-80 bg-base-100 p-4">
         <li v-for="(i, index) in menu" :key="index">
-          <NuxtLink :to="i.to">{{ i.label }}</NuxtLink>
+          <NuxtLink :to="{ name: i.to }">{{ i.label }}</NuxtLink>
         </li>
       </ul>
     </aside>
