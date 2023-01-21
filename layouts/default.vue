@@ -52,6 +52,12 @@ const drawerToggleID = 'navbar_drawer'
       </header>
       <!-- Page content here -->
       <slot />
+
+      <GlobalFooter>
+        <li v-for="(i, index) in menu" :key="index">
+          <NuxtLink :to="{ name: i.to }">{{ i.label }}</NuxtLink>
+        </li>
+      </GlobalFooter>
     </div>
 
     <aside class="drawer-side">
