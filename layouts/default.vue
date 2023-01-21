@@ -33,7 +33,7 @@ const drawerToggleID = 'navbar_drawer'
     <input :id="drawerToggleID" type="checkbox" class="drawer-toggle" />
 
     <div class="drawer-content flex flex-col">
-      <header class="navbar fixed w-full text-base-100">
+      <header class="navbar fixed w-full bg-base-300/50">
         <h1 class="mx-2 flex-1 px-2">Akijo</h1>
 
         <nav class="hidden flex-none lg:block">
@@ -54,7 +54,6 @@ const drawerToggleID = 'navbar_drawer'
       <slot />
     </div>
 
-    <input :id="drawerToggleID" type="checkbox" class="drawer-toggle" />
     <aside class="drawer-side">
       <label :for="drawerToggleID" class="drawer-overlay" />
       <ul class="menu w-80 bg-base-100 p-4">
