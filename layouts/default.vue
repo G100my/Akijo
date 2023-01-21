@@ -9,7 +9,7 @@ const { isMounted } = useJudgeMounted()
       <slot />
     </div>
 
-    <Navbar v-if="isMounted" />
+    <NavItems v-if="isMounted" />
   </div>
 </template>
 
