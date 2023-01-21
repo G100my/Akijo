@@ -24,20 +24,39 @@ const menu: { label: string; to: TypedRouteList }[] = [
     to: 'index',
   },
 ]
+
+const drawerToggleID = 'navbar_drawer'
 </script>
 
 <template>
-  <nav class="navbar fixed top-0">
-    <div class="flex-1">
-      <NuxtLink to="index" class="btn btn-ghost normal-case text-xl">Akijo</NuxtLink>
-    </div>
+  <input :id="drawerToggleID" type="checkbox" class="drawer-toggle" />
 
-    <div class="flex-none">
-      <ul class="menu menu-horizontal px-1">
-        <li v-for="(i, index) in menu" :key="index">
-          <NuxtLink :to="i.to">{{ i.label }}</NuxtLink>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <Teleport to=".drawer > .drawer-content">
+    <header class="navbar fixed w-full bg-base-300/50">
+      <h1 class="mx-2 flex-1 px-2">Akijo</h1>
+
+      <nav class="hidden flex-none lg:block">
+        <ul class="menu menu-horizontal">
+          <li v-for="(i, index) in menu" :key="index">
+            <NuxtLink :to="i.to">{{ i.label }}</NuxtLink>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex-none lg:hidden">
+        <label :for="drawerToggleID" class="btn-ghost btn-square btn">
+          <LGoogleIcon name="menu" />
+        </label>
+      </div>
+    </header>
+  </Teleport>
+
+  <aside class="drawer-side">
+    <label :for="drawerToggleID" class="drawer-overlay" />
+    <ul class="menu w-80 bg-base-100 p-4">
+      <li v-for="(i, index) in menu" :key="index">
+        <NuxtLink :to="i.to">{{ i.label }}</NuxtLink>
+      </li>
+    </ul>
+  </aside>
 </template>
