@@ -21,9 +21,9 @@
       </p>
     </div>
     <div>
-      <span class="footer-title">Company</span>
+      <span class="footer-title">Navigation</span>
       <ul>
-        <slot />
+        <slot class="link-hover link" />
       </ul>
     </div>
     <div>

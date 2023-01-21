@@ -1,29 +1,21 @@
 <script lang="ts" setup>
-import { TypedRouteList } from '@typed-router'
+import { NuxtLink } from '#components'
 
 const { t: $t } = useI18n()
-const menu: { label: string; to: TypedRouteList }[] = [
-  {
-    label: $t('index.about'),
-    to: 'About',
-  },
-  {
-    label: $t('index.menu'),
-    to: 'ServiceMenu',
-  },
-  {
-    label: 'option - 1',
-    to: 'index',
-  },
-  {
-    label: 'option - 2',
-    to: 'index',
-  },
-  {
-    label: 'option - 3',
-    to: 'index',
-  },
-]
+const menu = (props: any) =>
+  [
+    { label: $t('index.about'), to: 'About' },
+    { label: $t('index.menu'), to: 'ServiceMenu' },
+    { label: 'option - 1', to: 'index' },
+    { label: 'option - 2', to: 'index' },
+    { label: 'option - 3', to: 'index' },
+  ].map((i, ii) =>
+    h(
+      'li',
+      { key: ii, ...props },
+      h(NuxtLink, { to: { name: i.to } }, () => i.label)
+    )
+  )
 
 const drawerToggleID = 'navbar_drawer'
 </script>
@@ -38,9 +30,7 @@ const drawerToggleID = 'navbar_drawer'
 
         <nav class="hidden flex-none lg:block">
           <ul class="menu menu-horizontal">
-            <li v-for="(i, index) in menu" :key="index">
-              <NuxtLink :to="{ name: i.to }">{{ i.label }}</NuxtLink>
-            </li>
+            <Component :is="menu" />
           </ul>
         </nav>
 
@@ -54,18 +44,14 @@ const drawerToggleID = 'navbar_drawer'
       <slot />
 
       <GlobalFooter>
-        <li v-for="(i, index) in menu" :key="index">
-          <NuxtLink :to="{ name: i.to }">{{ i.label }}</NuxtLink>
-        </li>
+        <Component :is="menu" class="link-hover link" />
       </GlobalFooter>
     </div>
 
     <aside class="drawer-side">
       <label :for="drawerToggleID" class="drawer-overlay" />
       <ul class="menu w-80 bg-base-100 p-4">
-        <li v-for="(i, index) in menu" :key="index">
-          <NuxtLink :to="{ name: i.to }">{{ i.label }}</NuxtLink>
-        </li>
+        <Component :is="menu" />
       </ul>
     </aside>
   </div>
