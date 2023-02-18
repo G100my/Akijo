@@ -4,5 +4,5 @@ defineProps<{
 }>()
 </script>
 <template>
-  <span class="material-symbols-rounded">{{ name }}</span>
+  <i :class="name"></i>
 </template>

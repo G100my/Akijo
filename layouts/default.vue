@@ -36,7 +36,7 @@ const drawerToggleID = 'navbar_drawer'
 
         <div class="flex-none lg:hidden">
           <label :for="drawerToggleID" class="btn-ghost btn-square btn">
-            <LGoogleIcon name="menu" />
+            <LRemixIcon name="ri-menu-fill" class="text-2xl" />
           </label>
         </div>
       </header>
