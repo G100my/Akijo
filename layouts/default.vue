@@ -2,14 +2,10 @@
 import { NuxtLink } from '#components'
 
 const { t: $t } = useI18n()
+
+const { navItems } = useSiteMeta()
 const menu = (props: any) =>
-  [
-    { label: $t('index.about'), to: 'About' },
-    { label: $t('index.menu'), to: 'ServiceMenu' },
-    { label: 'option - 1', to: 'index' },
-    { label: 'option - 2', to: 'index' },
-    { label: 'option - 3', to: 'index' },
-  ].map((i, ii) =>
+  navItems.value.map((i, ii) =>
     h(
       'li',
       { key: ii, ...props },
