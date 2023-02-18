@@ -2,5 +2,9 @@
   "i18n-ally.enabledFrameworks": ["vue"],
   "i18n-ally.localesPaths": ["locales"],
   "i18n-ally.keystyle": "flat",
-  "i18n-ally.displayLanguage": "zh"
+  "i18n-ally.displayLanguage": "zh",
+  "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config.cjs",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
 }
