@@ -22,7 +22,7 @@ const drawerToggleID = 'navbar_drawer'
 
     <div class="drawer-content flex flex-col">
       <header class="navbar fixed w-full bg-base-300/50">
-        <h1 class="mx-2 flex-1 px-2">Akijo</h1>
+        <h1 class="mx-2 flex-1 px-2">{{ $t('base.akijo') }}</h1>
 
         <nav class="hidden flex-none lg:block">
           <ul class="menu menu-horizontal">
