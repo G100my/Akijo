@@ -1,4 +1,5 @@
 import type { ComputedRef } from 'vue'
+import mojow from '~/assets/brandLogo/mojow.png'
 
 export function useSiteMeta() {
   return {
@@ -15,6 +16,16 @@ export function useSiteMeta() {
 
     get socialMedias(): { label: string; to: string; short?: string; iconName: string }[] {
       return [{ label: 'Instegram', to: 'https://www.instagram.com/akijo____/', iconName: 'ri-instagram-line' }]
+    },
+
+    get brands(): { label: string; logo: string; to: string }[] {
+      return [
+        {
+          label: 'Mojow',
+          to: 'https://www.gillianspace.com.tw/ImportedFurniture-Mojow.html',
+          logo: mojow,
+        },
+      ]
     },
   }
 }

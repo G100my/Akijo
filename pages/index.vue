@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { socialMedias } = useSiteMeta()
+const { socialMedias, brands } = useSiteMeta()
 const { t: $t } = useI18n()
 </script>
 <template>
@@ -25,7 +25,16 @@ const { t: $t } = useI18n()
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="p-10">
+        <h2 class="text-center text-5xl">brands title</h2>
+        <ul class="flex justify-center">
+          <li v-for="i in brands">
+            <img class="w-60" :src="i.logo" :alt="i.label" />
+          </li>
+        </ul>
+      </div>
+    </main>
     <footer></footer>
   </section>
 </template>
