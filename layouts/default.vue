@@ -20,22 +20,22 @@ const drawerToggleID = 'navbar_drawer'
   <div class="drawer drawer-end">
     <input :id="drawerToggleID" type="checkbox" class="drawer-toggle" />
 
-    <div class="drawer-content flex flex-col">
-      <header class="navbar fixed w-full bg-base-300/50">
+    <div class="drawer-content">
+      <nav class="navbar sticky top-0 w-full bg-base-300/50">
         <h1 class="mx-2 flex-1 px-2">{{ $t('base.akijo') }}</h1>
 
-        <nav class="hidden flex-none lg:block">
+        <div class="hidden flex-none lg:block">
           <ul class="menu menu-horizontal">
             <Component :is="menu" />
           </ul>
-        </nav>
+        </div>
 
         <div class="flex-none lg:hidden">
           <label :for="drawerToggleID" class="btn-ghost btn-square btn">
             <LRemixIcon name="ri-menu-fill" class="text-2xl" />
           </label>
         </div>
-      </header>
+      </nav>
       <!-- Page content here -->
       <slot />
 

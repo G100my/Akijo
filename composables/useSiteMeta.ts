@@ -27,5 +27,13 @@ export function useSiteMeta() {
         },
       ]
     },
+
+    get menu(): { label: string; img: string; description: string }[] {
+      return ['A coffee', 'B coffee', 'C coffee'].map(i => ({
+        label: i,
+        img: `https://fakeimg.pl/300?text=${i}`,
+        description: `something about ${i}`,
+      }))
+    },
   }
 }

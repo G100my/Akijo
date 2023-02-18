@@ -1,5 +1,6 @@
-<script lang="ts" setup></script>
-
+<script lang="ts" setup>
+const { menu } = useSiteMeta()
+</script>
 <template>
   <header class="flex h-96 flex-shrink-0 items-center justify-center bg-gray-100">???</header>
   <main class="space-y-10 p-5">
