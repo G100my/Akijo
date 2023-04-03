@@ -12,8 +12,8 @@ import webLogo from '~/assets/web_logo.png'
   <main class="relative min-h-screen overflow-auto bg-[#ff4c14]">
     <div class="mx-auto flex h-screen max-h-screen max-w-xs flex-col items-center justify-center sm:hidden">
       <img :src="Akijo" alt="Akijo 百變怪" class="w-full" />
-      <img :src="AkijoSpace" alt="萩条集結所" class="w-3/5 translate-x-4" />
-      <img :src="comingsoon_S" alt="Coming soon..." class="w-3/5 translate-x-5" />
+      <img :src="AkijoSpace" alt="萩条集結所" class="w-3/5" />
+      <img :src="comingsoon_S" alt="Coming soon..." class="w-3/5" />
     </div>
     <div class="hidden sm:block">
       <img :src="comingsoon_L" alt="Coming soon..." class="mx-auto h-screen object-cover" />
