@@ -9,7 +9,7 @@ const menu = (props: any) =>
     h(
       'li',
       { key: ii, ...props },
-      h(NuxtLink, { to: { name: i.to } }, () => i.label)
+      h(NuxtLink, { to: { name: i.to }, class: 'bg-slate-300/80 rounded-full' }, () => i.label)
     )
   )
 
@@ -21,11 +21,11 @@ const drawerToggleID = 'navbar_drawer'
     <input :id="drawerToggleID" type="checkbox" class="drawer-toggle" />
 
     <div class="drawer-content">
-      <nav class="navbar sticky top-0 w-full bg-base-300/50">
-        <h1 class="mx-2 flex-1 px-2">{{ $t('base.akijo') }}</h1>
+      <nav class="navbar fixed top-0 w-full pl-4 pr-6 pt-3 z-30">
+        <h1 class="flex-1 font-black">{{ $t('base.akijo_fullname') }}</h1>
 
-        <div class="hidden flex-none lg:block">
-          <ul class="menu menu-horizontal">
+        <div class="hidden flex-none font-medium lg:block">
+          <ul class="menu menu-horizontal gap-2">
             <Component :is="menu" />
           </ul>
         </div>
