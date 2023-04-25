@@ -21,4 +21,12 @@ export default defineNuxtConfig({
       messages: { en, zh },
     },
   },
+  // https://tailwindcss.nuxtjs.org/getting-started/options#viewer
+  // tailwindcss: {
+  //   cssPath: false,
+  //   configPath: 'tailwind.config',
+  //   exposeConfig: false,
+  //   injectPosition: 'first',
+  //   viewer: true,
+  // },
 })
