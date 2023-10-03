@@ -14,13 +14,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  i18n: {
-    vueI18n: {
-      legacy: false,
-      locale: 'zh',
-      messages: { en, zh },
-    },
-  },
   // https://tailwindcss.nuxtjs.org/getting-started/options#viewer
   // tailwindcss: {
   //   cssPath: false,
