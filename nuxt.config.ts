@@ -1,5 +1,7 @@
 import en from './locales/en.json'
 import zh from './locales/zh.json'
+import Markdown from 'unplugin-vue-markdown/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
@@ -13,6 +15,16 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;900&family=Sora:wght@400;500;900&display=swap' },
       ],
     },
+  },
+  vite: {
+    vue: {
+      include: [/\.vue$/, /\.md$/],
+    },
+    plugins: [
+      Markdown({
+        /* options */
+      }),
+    ],
   },
   // https://tailwindcss.nuxtjs.org/getting-started/options#viewer
   // tailwindcss: {
