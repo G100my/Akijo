@@ -18,6 +18,7 @@ onMounted(() => {
     duration: 300,
     opacity: [0, 1],
   })
+  _jf.flush()
 })
 </script>
 <template>
@@ -26,14 +27,12 @@ onMounted(() => {
     <div class="py-6 px-4 backdrop-blur h-full w-full flex flex-col items-center overflow-y-auto">
       <main class="container h-full max-w-md">
         <div class="pt-5 pb-20 space-y-3">
-          <section class="_post-block">
+          <section class="_post-block text-center space-y-3 !pt-3">
+            <h1 class="text-6xl my-5 burnfont">萩条集結所</h1>
             <div class="flex justify-around mb-10">
               <img class="w-32 h-32 rounded-full" :src="ImgAvatar" :alt="brandKey" />
             </div>
-            <div class="text-center space-y-3">
-              <h1 class="text-3xl my-5">Akijo 萩条集結所</h1>
-              <MDAbout />
-            </div>
+            <MDAbout />
           </section>
 
           <section class="_post-block px-10">
