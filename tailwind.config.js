@@ -1,15 +1,17 @@
-
 /**
  * @type {import("tailwindcss").Config};
  */
 const config = {
   theme: {
     extend: {
-      colors: {
+      colors: (PluginUtils) => ({
         design: {
           red: '#ff4c14',
         },
-      },
+        primary: {
+          bg: PluginUtils.colors.slate[950],
+        },
+      }),
     },
   },
 }

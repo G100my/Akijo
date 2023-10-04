@@ -12,15 +12,19 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;900&family=Sora:wght@400;500;900&display=swap' },
       ],
+      script: [
+        { src: 'https://www.instagram.com/embed.js', async: true, defer: true },
+      ],
     },
   },
+  components: [{ path: '~/contents', extensions: ['.md'], prefix: 'MD' }, '~/components'],
   vite: {
     vue: {
       include: [/\.vue$/, /\.md$/],
     },
     plugins: [
       Markdown({
-        /* options */
+        wrapperClasses: 'markdown-body',
       }),
     ],
   },
