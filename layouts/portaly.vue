@@ -27,8 +27,11 @@ onMounted(() => {
     window._jf.flush()
     console.log('flush')
     // @ts-ignore
-    window.instgrm.Embeds.process()
-    console.log('process')
+    if (window.instgrm) {
+      // @ts-ignore
+      window.instgrm.Embeds.process()
+      console.log('process')
+    } else console.log('Can not process')
   })
 })
 </script>
