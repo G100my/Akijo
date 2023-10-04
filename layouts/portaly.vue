@@ -23,7 +23,13 @@ onMounted(() => {
     duration: 300,
     opacity: [0, 1],
   })
-  _jf.flush()
+  nextTick(() => {
+    window._jf.flush()
+    console.log('flush')
+    // @ts-ignore
+    window.instgrm.Embeds.process()
+    console.log('process')
+  })
 })
 </script>
 <template>
