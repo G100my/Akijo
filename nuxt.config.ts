@@ -8,7 +8,10 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router'],
   app: {
     head: {
+      title: '萩条集結所 Akijo',
+
       link: [
+        { rel: 'icon', href: './favicon.png' },
         { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css' },
         // { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         // { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
@@ -16,7 +19,6 @@ export default defineNuxtConfig({
       ],
       script: [
         // instagram embed
-        { src: 'https://www.instagram.com/embed.js', async: true, defer: true },
         // justfont
         isDev
           ? { src: '//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-64974.js' }
@@ -31,10 +33,11 @@ export default defineNuxtConfig({
             gtag('js', new Date());
             gtag('config', 'G-5W9ZMDZJ7B');`,
         },
+        { src: '//www.instagram.com/embed.js', async: true },
       ],
     },
   },
-  components: [{ path: '~/contents', extensions: ['.md'], prefix: 'MD' }, '~/components'],
+  components: [{ path: '~/contents', extensions: ['.md'], prefix: 'MD' }, '~/components', '~/components/ig'],
   vite: {
     vue: {
       include: [/\.vue$/, /\.md$/],

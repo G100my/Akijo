@@ -44,8 +44,11 @@ onMounted(() => {
             <MDTopPin />
           </section>
 
-          <section class="_post-block">
-            <InstagramEmbed />
+          <section class="_post-block overflow-hidden">
+            <Post1 />
+          </section>
+          <section class="_post-block overflow-hidden">
+            <Post2 />
           </section>
 
           <section class="space-y-3">
