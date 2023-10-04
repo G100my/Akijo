@@ -1,10 +1,24 @@
 <script setup>
+import anime from 'animejs'
 import ImgBg from 'assets/1696293298652.jpg'
 import ImgAvatar from 'assets/avatar.jpg'
 import ImgBlackAkijo from '@/assets/icon/rich_black.png'
 import ImgUberEats from '@/assets/icon/uber_iOS.svg'
 
 const brandKey = 'Akijo 萩条集結所'
+
+onMounted(() => {
+  anime({
+    targets: '._portaly section',
+    autoplay: true,
+    loop: false,
+    translateY: [80, 0],
+    delay: (el, i) => i * 200,
+    easing: 'linear',
+    duration: 300,
+    opacity: [0, 1],
+  })
+})
 </script>
 <template>
   <div class="_portaly h-screen w-screen text-gray-50">
