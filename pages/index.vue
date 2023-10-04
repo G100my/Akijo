@@ -4,11 +4,11 @@ const { t: $t } = useI18n()
 </script>
 <template>
   <section id="index">
-    <header class="hero min-h-screen" style="background-image: url(https://fakeimg.pl/300?text=hero_image)">
-      <div class="hero-overlay bg-opacity-60" />
+    <header class="_hero_bg_image hero min-h-screen bg-design-red">
+      <div class="hero-overlay bg-transparent" />
 
       <div class="hero-content flex-col text-center text-neutral-content">
-        <h1 class="mb-5 text-5xl font-bold">{{ $t('base.akijo') }}</h1>
+        <h1 class="mb-5 text-5xl font-black">{{ $t('base.akijo_fullname') }}</h1>
 
         <ul class="w-full rounded bg-black/50 py-2 pl-4 md:hidden">
           <li v-for="i in socialMedias">
@@ -38,3 +38,8 @@ const { t: $t } = useI18n()
     <footer></footer>
   </section>
 </template>
+<style>
+._hero_bg_image {
+  background-image: url(@/assets/desktop_bg.png);
+}
+</style>
