@@ -5,5 +5,6 @@
   "i18n-ally.displayLanguage": "zh",
   "files.associations": {
     "*.css": "tailwindcss"
-  }
+  },
+  "css.lint.unknownAtRules": "ignore"
 }
