@@ -1,11 +1,9 @@
-import en from './locales/en.json'
-import zh from './locales/zh.json'
 import Markdown from 'unplugin-vue-markdown/vite'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-typed-router'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router'],
   app: {
     head: {
       link: [
