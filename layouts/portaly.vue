@@ -53,13 +53,6 @@ onMounted(() => {
             <MDTopPin />
           </section>
 
-          <section class="_post-block overflow-hidden">
-            <Post1 />
-          </section>
-          <section class="_post-block overflow-hidden">
-            <Post2 />
-          </section>
-
           <section class="space-y-3">
             <a
               class="_nav-item heartbeat"
@@ -79,6 +72,13 @@ onMounted(() => {
               <img :src="ImgUberEats" alt="Akijo - UberEats order link" />
               <p>Uber Eats 幫你送</p>
             </a>
+          </section>
+
+          <section class="_post-block overflow-hidden">
+            <Post1 class="min-width: auto !important" />
+          </section>
+          <section class="_post-block overflow-hidden">
+            <Post2 />
           </section>
 
           <section class="rounded-lg overflow-hidden bg-white/80">
