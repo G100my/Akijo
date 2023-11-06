@@ -74,13 +74,6 @@ onMounted(() => {
             </a>
           </section>
 
-          <section class="_post-block overflow-hidden">
-            <Post1 class="min-width: auto !important" />
-          </section>
-          <section class="_post-block overflow-hidden">
-            <Post2 />
-          </section>
-
           <section class="rounded-lg overflow-hidden bg-white/80">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.1536021635866!2d120.30514907606808!3d22.648060979438075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e05e1267625c7%3A0xb44bde9622dc34cb!2z6JCp5p2h6ZuG57WQ5omAIEFraWpv!5e0!3m2!1szh-TW!2stw!4v1696409483954!5m2!1szh-TW!2stw"
