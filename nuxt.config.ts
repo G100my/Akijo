@@ -38,11 +38,11 @@ export default defineNuxtConfig({
             gtag('config', 'G-5W9ZMDZJ7B');`,
         },
         // instagram embed
-        {
-          src: '//www.instagram.com/embed.js',
-          async: true,
-          onload: `window.instgrm.Embeds.process()`,
-        },
+        // {
+        //   src: '//www.instagram.com/embed.js',
+        //   async: true,
+        //   onload: `window.instgrm.Embeds.process()`,
+        // },
       ],
     },
   },
