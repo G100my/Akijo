@@ -59,11 +59,10 @@ onMounted(() => {
             </nav>
           </section>
 
-          <section class="_post_block px-10">
-            <MarkdownTopPin />
-          </section>
-
-          <section class="space-y-3">
+          <section class="_post-block">
+            <div class="overflow-hidden">
+              <Post1 class="min-width: auto !important" />
+            </div>
             <a
               class="_nav_item heartbeat"
               href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzVicGdkZmgxMGQzOWk2bDQ0dTIxN3ZsNDkgYWtpam8yMDIzQG0&tmsrc=akijo2023%40gmail.com"
@@ -73,6 +72,13 @@ onMounted(() => {
               <span class="burnfont text-7xl text-red-600">萩</span>
               <p>將 Stay萩 加入行事曆</p>
             </a>
+          </section>
+
+          <section class="_post_block px-10">
+            <MarkdownTopPin />
+          </section>
+
+          <section class="space-y-3">
             <a
               class="_nav_item heartbeat"
               href="https://store.dudooeat.com/order/store/8df9f38a903c442b9f8c1589445256ca"

@@ -1,7 +1,8 @@
 <template>
   <blockquote
     class="instagram-media"
-    data-instgrm-permalink="https://www.instagram.com/reel/CvzPBB7sp11/?utm_source=ig_embed&amp;utm_campaign=loading"
+    data-instgrm-captioned
+    data-instgrm-permalink="https://www.instagram.com/p/CzitiI3Psd9/?utm_source=ig_embed&amp;utm_campaign=loading"
     data-instgrm-version="14"
     style="
       background: #fff;
@@ -21,7 +22,7 @@
   >
     <div style="padding: 16px">
       <a
-        href="https://www.instagram.com/reel/CvzPBB7sp11/?utm_source=ig_embed&amp;utm_campaign=loading"
+        href="https://www.instagram.com/p/CzitiI3Psd9/?utm_source=ig_embed&amp;utm_campaign=loading"
         style="background: #ffffff; line-height: 0; padding: 0 0; text-align: center; text-decoration: none; width: 100%"
         target="_blank"
       >
@@ -93,6 +94,36 @@
           <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px"></div>
           <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px"></div></div
       ></a>
+      <p
+        style="
+          color: #c9c8cd;
+          font-family: Arial, sans-serif;
+          font-size: 14px;
+          line-height: 17px;
+          margin-bottom: 0;
+          margin-top: 8px;
+          overflow: hidden;
+          padding: 8px 0 7px;
+          text-align: center;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        "
+      >
+        <a
+          href="https://www.instagram.com/p/CzitiI3Psd9/?utm_source=ig_embed&amp;utm_campaign=loading"
+          style="
+            color: #c9c8cd;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 17px;
+            text-decoration: none;
+          "
+          target="_blank"
+          >萩条集結所 Akijō（@akijo____）分享的貼文</a
+        >
+      </p>
     </div>
   </blockquote>
 </template>
