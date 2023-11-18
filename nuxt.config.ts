@@ -6,7 +6,7 @@ const isProd = process.env.NODE_ENV === 'production' ? true : undefined
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router', 'nuxt-simple-sitemap'],
   app: {
     head: {
       title: '萩条集結所 Akijo',
@@ -56,6 +56,9 @@ export default defineNuxtConfig({
         wrapperClasses: 'markdown-body',
       }),
     ],
+  },
+  site: {
+    url: 'https://akijo.space',
   },
   // https://tailwindcss.nuxtjs.org/getting-started/options#viewer
   // tailwindcss: {
