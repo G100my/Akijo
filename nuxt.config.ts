@@ -13,6 +13,7 @@ export default defineNuxtConfig({
 
       link: [
         { rel: 'icon', href: './favicon.png' },
+        // remix icon
         { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css' },
         // { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         // { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
@@ -45,7 +46,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  components: [{ path: '~/contents', extensions: ['.md'], prefix: 'MD' }, '~/components', '~/components/ig'],
+  components: [{ path: '~/contents', extensions: ['.md'], prefix: 'Markdown' }, '~/components', '~/components/ig'],
   vite: {
     vue: {
       include: [/\.vue$/, /\.md$/],
