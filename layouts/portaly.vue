@@ -59,7 +59,7 @@ onMounted(() => {
             </nav>
           </section>
 
-          <section class="_post-block">
+          <!-- <section class="_post-block">
             <div class="overflow-hidden">
               <Post1 class="min-width: auto !important" />
             </div>
@@ -72,7 +72,7 @@ onMounted(() => {
               <span class="burnfont text-7xl text-red-600">萩</span>
               <p>將 Stay萩 加入行事曆</p>
             </a>
-          </section>
+          </section> -->
 
           <section class="_post_block px-10">
             <MarkdownTopPin />
