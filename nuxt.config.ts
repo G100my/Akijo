@@ -6,7 +6,7 @@ const isProd = process.env.NODE_ENV === 'production' ? true : undefined
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router', 'nuxt-simple-sitemap'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router', 'nuxt-simple-sitemap', '@vite-pwa/nuxt'],
   app: {
     head: {
       title: '萩条集結所 Akijo',
@@ -59,6 +59,20 @@ export default defineNuxtConfig({
   },
   site: {
     url: 'https://akijo.space',
+  },
+  pwa: {
+    srcDir: './',
+    filename: 'firebase-messaging-sw.ts',
+    strategies: 'injectManifest',
+    injectRegister: false,
+    injectManifest: {
+      injectionPoint: undefined,
+    },
+    manifest: false,
+    devOptions: {
+      enabled: true,
+      type: 'module',
+    },
   },
   // https://tailwindcss.nuxtjs.org/getting-started/options#viewer
   // tailwindcss: {
