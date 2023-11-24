@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "animejs": "^3.2.1",
+    "firebase": "^10.6.0",
     "nuxt-typed-router": "^3.3.1",
     "unplugin-vue-markdown": "^0.24.3"
   }
