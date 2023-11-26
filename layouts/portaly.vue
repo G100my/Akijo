@@ -51,10 +51,15 @@ onMounted(() => {
 
             <hr />
 
-            <nav>
+            <nav class="grid grid-cols-2">
               <a href="https://www.instagram.com/stories/akijo____/" target="_blank">
                 <i class="ri-instagram-line text-2xl" />
                 <span class="jf-openhuninn text-1xl align-bottom ml-2">akijo____</span>
+              </a>
+              <a href="tel:073229337">
+                <i class="ri-phone-line text-2xl" />
+                <span>07-322-9337</span>
+                <p class="text-xs">市話僅限特殊情況聯絡，<br />外帶點餐請使用下方外帶線上連結。</p>
               </a>
             </nav>
           </section>
