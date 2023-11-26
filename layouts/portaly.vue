@@ -71,6 +71,7 @@ onMounted(() => {
           </section>
 
           <section class="_post_block">
+            <NotificationBlock />
           </section>
 
           <section class="_post_block px-10 text-center">
