@@ -23,16 +23,6 @@ onMounted(() => {
     duration: 300,
     opacity: [0, 1],
   })
-  nextTick(() => {
-    window._jf.flush()
-    console.log('flush')
-    // @ts-ignore
-    if (window.instgrm) {
-      // @ts-ignore
-      window.instgrm.Embeds.process()
-      console.log('process')
-    } else console.log('Can not process')
-  })
 })
 </script>
 <template>

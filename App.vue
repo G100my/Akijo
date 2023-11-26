@@ -1,3 +1,17 @@
+<script setup lang="ts">
+nextTick(() => {
+  if (window._jf) {
+    window._jf.flush()
+    console.log('flush')
+  }
+  // @ts-ignore
+  if (window.instgrm) {
+    // @ts-ignore
+    window.instgrm.Embeds.process()
+    console.log('process')
+  } else console.log('Can not process')
+})
+</script>
 <template>
   <NuxtLayout name="portaly">
     <NuxtPage />
