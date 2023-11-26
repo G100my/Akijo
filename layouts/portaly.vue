@@ -155,6 +155,9 @@ onMounted(() => {
 .markdown-body ul {
   @apply list-disc pl-10;
 }
+.markdown-body ol {
+  @apply list-decimal pl-8;
+}
 
 ._nav_item {
   @apply flex p-4 text-3xl items-center text-center bg-sky-400/70 rounded-lg;
