@@ -1,4 +1,5 @@
 import Markdown from 'unplugin-vue-markdown/vite'
+import { SERVICEWORKER_FILE_NAME } from './constants'
 
 const isDev = process.env.NODE_ENV === 'development' ? true : undefined
 const isProd = process.env.NODE_ENV === 'production' ? true : undefined
@@ -62,7 +63,7 @@ export default defineNuxtConfig({
   },
   pwa: {
     srcDir: './',
-    filename: 'firebase-messaging-sw.ts',
+    filename: `${SERVICEWORKER_FILE_NAME}.ts`,
     strategies: 'injectManifest',
     injectRegister: false,
     injectManifest: {
