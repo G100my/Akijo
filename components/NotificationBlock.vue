@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const status = ref(Notification.permission)
 function handleActive() {
+  gtag('event', 'active_notification')
   const { $firebaseMessagingGetToken } = useNuxtApp()
   $firebaseMessagingGetToken().finally(() => {
     status.value = Notification.permission
