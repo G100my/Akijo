@@ -3,14 +3,14 @@
   <p class="text-xs mt-3">嗯...我就不上圖了，點進去看效果吧！</p>
   <ul class="_ig_filters mt-10">
     <li>
-      <a href="https://www.instagram.com/ar/755147199774107/" target="_blank">
+      <a class="text-sky-400" href="https://www.instagram.com/ar/755147199774107/" target="_blank">
         <h3>Hello, Akijo</h3>
         <i class="ri-external-link-line"></i>
       </a>
       <p class="text-sm">讓 Akijo 出現在畫面中的平面跟你打招呼（？）<br />可以旋轉、拖曳、縮放 <br />以後還會加入更多動作！</p>
     </li>
     <li>
-      <a href="https://www.instagram.com/ar/1159867144973553/" target="_blank">
+      <a class="text-sky-400" href="https://www.instagram.com/ar/1159867144973553/" target="_blank">
         <h3>Akijo sticker</h3>
         <i class="ri-external-link-line"></i>
       </a>

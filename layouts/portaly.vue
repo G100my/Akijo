@@ -34,7 +34,7 @@ onMounted(() => {
 
             <hr />
 
-            <nav class="grid grid-cols-2">
+            <nav class="grid grid-cols-2 text-sky-400">
               <a href="https://www.instagram.com/stories/akijo____/" target="_blank">
                 <i class="ri-instagram-line text-2xl" />
                 <span class="jf-openhuninn text-1xl align-bottom ml-2">akijo____</span>
