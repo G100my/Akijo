@@ -1,5 +1,11 @@
 <script setup lang="ts">
-const status = Notification.permission
+const status = ref(Notification.permission)
+function handleActive() {
+  const { $firebaseMessagingGetToken } = useNuxtApp()
+  $firebaseMessagingGetToken().finally(() => {
+    status.value = Notification.permission
+  })
+}
 </script>
 <template>
   <div class="text-center space-y-4">
@@ -21,7 +27,7 @@ const status = Notification.permission
           </p>
         </div>
       </div>
-      <button type="button" @click="askPermission" class="heartbeat bg-sky-400 py-2 px-4 rounded">
+      <button type="button" @click="handleActive" class="heartbeat bg-sky-400 py-2 px-4 rounded">
         <i class="ri-notification-2-fill" />
         <span class="ml-3">啟用網頁通知</span>
       </button>
