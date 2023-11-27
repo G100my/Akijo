@@ -46,7 +46,7 @@ function handleActive() {
       </div>
     </template>
     <template v-else-if="status === 'denied'">
-      <p>咦？你把我們的活動通知禁止了？<br />我們真的不會太常打擾你，<br />只會在有趣的萩条生活將要發生的時候通知你，<br />一起來過萩条生活</p>
+      <p>咦？你把我們的活動通知禁止了？<br />我們真的不會太常打擾你，<br />只會在有趣的萩条生活<br />將要發生的時候通知你，<br />一起來過萩条生活</p>
       <p class="text-base">現在瀏覽器把使用者保護的很好，<br />我們無法直接幫你再次開啟通知，<br />你可以參考以下連結重新設定。</p>
       <p class="space-x-5">
         <span>操作說明連結：</span>
