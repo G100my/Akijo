@@ -78,6 +78,10 @@ onMounted(() => {
             <IgFilterInfoBlock />
           </section>
 
+          <section class="_post_block px-10">
+            <ParkingBlock />
+          </section>
+
           <section class="rounded-lg overflow-hidden bg-white/80">
             <MapBlock />
           </section>
