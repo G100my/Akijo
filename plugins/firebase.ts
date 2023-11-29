@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app'
 import { getMessaging, getToken } from 'firebase/messaging'
 import { SERVICEWORKER_FILE_NAME } from '~/constants'
+import ImgAvatar from '@/assets/avatar.jpg'
 
 export const vapidKey = 'BPlCWPfPI5M10xlYqpI-yAkoz8pFhxJf1Pg8b8wAsS7vcAZggn8eOq2vwQ5GW7esycsm5gpvSaLyTvNw9ITtvE8'
 
@@ -38,6 +39,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
             if (currentToken) {
               // Send the token to your server and update the UI if necessary
               if (import.meta.dev) console.log(currentToken)
+              new Notification('萩条集結所', { body: '耶 歡迎成為萩条人！', badge: ImgAvatar })
             } else {
               // Show permission request UI
               console.warn('No registration token available. Request permission to generate one.')
