@@ -17,6 +17,8 @@ onMounted(() => {
     opacity: [0, 1],
   })
 })
+
+useForceRefreshJF()
 </script>
 <template>
   <div class="_portaly h-screen w-screen text-gray-50">
