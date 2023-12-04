@@ -4,13 +4,24 @@ import { SERVICEWORKER_FILE_NAME } from './constants'
 const isDev = process.env.NODE_ENV === 'development' ? true : undefined
 const isProd = process.env.NODE_ENV === 'production' ? true : undefined
 
+const metaTitle = '萩条集結所 Akijo'
+const metaDescription = 'Hi, 這裡是 萩条集結所Akijo 傳送門網站，線上菜單、UberEat菜單、還有活動資訊都可以在這裡找到，一起來過萩条生活吧'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
   modules: ['@nuxtjs/tailwindcss', 'nuxt-typed-router', 'nuxt-simple-sitemap', '@vite-pwa/nuxt'],
   app: {
     head: {
-      title: '萩条集結所 Akijo',
+      title: metaTitle,
+
+      meta: [
+        { name: 'description', content: metaDescription },
+        { property: 'og:title', content: metaTitle },
+        { property: 'og:locale', content: 'zh-TW' },
+        { property: 'og:description', content: metaDescription },
+        { property: 'og:image', content: './favicon.png' },
+        { property: 'og:url', content: 'https://akijo.space' },
+      ],
 
       link: [
         { rel: 'icon', href: './favicon.png' },
