@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { property: 'og:title', content: metaTitle },
         { property: 'og:locale', content: 'zh-TW' },
         { property: 'og:description', content: metaDescription },
-        { property: 'og:image', content: './favicon.png' },
+        { property: 'og:image', content: 'https://akijo.space/avatar.jpg' },
         { property: 'og:url', content: 'https://akijo.space' },
       ],
 
