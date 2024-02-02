@@ -1,0 +1,29 @@
+{
+  "modelName": "animation_model",
+  "name": "path128Action",
+  "identifier": "animation_model:1036502-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+  "sourceIdentifier": "asset_collection_model:1036510-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+  "assetLocator": "6320576735fd4100314a36a1e3f36dc1.glb",
+  "duration": 5.875,
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "ticksPerSecond": 1000,
+  "children": [
+    {
+      "modelName": "animation_channels_model",
+      "identifier": "animation_channels_model:1036504-9ac804df-557e-40cc-8485-3f6bc0fd8488"
+    },
+    {
+      "modelName": "animation_channel_model",
+      "name": "animation_channel_model0",
+      "identifier": "animation_channel_model:1036506-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+      "animationMask": {
+        "position": true,
+        "rotation": true,
+        "scale": true
+      }
+    }
+  ]
+}

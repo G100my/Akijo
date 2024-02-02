@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "cerulean_blue",
+  "identifier": "texture:218071-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "de12806e186f3c837e8f1f222dcc0630",
+  "assetLocator": "textures/cerulean_blue.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:218085-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+    "textureExportConfig:218091-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+    "textureExportConfig:218097-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 147,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 147,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "de12806e186f3c837e8f1f222dcc0630",
+      "colorCount": 214,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.0768132321718125,
+      "pixelsHigh": 147,
+      "pixelsWide": 147
+    }
+  ]
+}

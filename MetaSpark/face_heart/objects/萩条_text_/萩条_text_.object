@@ -1,0 +1,108 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "萩条_text_",
+  "identifier": "master3_d_object_model:260332-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+  "sourceIdentifier": "asset_collection_model:260336-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.01000000536441803,
+  "globalScaleFactor": 1,
+  "height": 0.12251752614974976,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.25270694494247437,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Curve.437",
+      "identifier": "mesh:260314-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Curve.437",
+      "numberOfFaces": 33675,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:260318-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 1.5707964897155762,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 0.9999999403953552,
+        "sz": 0.9999999403953552,
+        "x": -1.0811067819595337,
+        "y": 0.5852440595626831,
+        "z": -0.18003243207931519
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:260316-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:260321-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:260308-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "surfaceGroupIdentifier": "260322-d3c5072d-6e6e-4972-8571-bc55f6c32bc9"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:260324-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:260310-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "surfaceGroupIdentifier": "260325-d3c5072d-6e6e-4972-8571-bc55f6c32bc9"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface2",
+              "identifier": "surface:260327-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:260312-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "surfaceGroupIdentifier": "260328-d3c5072d-6e6e-4972-8571-bc55f6c32bc9"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface3",
+              "identifier": "surface:260330-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:260312-d3c5072d-6e6e-4972-8571-bc55f6c32bc9",
+              "surfaceGroupIdentifier": "260328-d3c5072d-6e6e-4972-8571-bc55f6c32bc9"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

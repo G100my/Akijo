@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "萩条-3Artboard 22@4x",
+  "identifier": "texture:182093-b22fc8e5-101d-489f-b462-f87ddb8edeb6",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "9888265af2a12e1f4d68ddfa7a9065c2",
+  "assetLocator": "textures/萩条-3Artboard 22@4x.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:183227-b22fc8e5-101d-489f-b462-f87ddb8edeb6",
+    "textureExportConfig:183245-b22fc8e5-101d-489f-b462-f87ddb8edeb6",
+    "textureExportConfig:183263-b22fc8e5-101d-489f-b462-f87ddb8edeb6"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 320,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 321,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "9888265af2a12e1f4d68ddfa7a9065c2",
+      "colorCount": 34,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.5627578224103034,
+      "pixelsHigh": 320,
+      "pixelsWide": 321
+    }
+  ]
+}

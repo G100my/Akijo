@@ -1,0 +1,28 @@
+{
+  "modelName": "retouchingMaterial",
+  "name": "material4",
+  "identifier": "retouchingMaterial:4458860-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "cullMode": "back",
+  "diffuseTextureName": "texture:4458864-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": false,
+  "fullFrameSmoothing": true,
+  "importIssues": {},
+  "isDiffuseTextureIdentifierEnabled": true,
+  "readDepth": true,
+  "smoothingFactor": 0.2954837328767123,
+  "transparency": 1,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "coral_pink",
+  "identifier": "texture:218851-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "d19c263a8ba9f385a6f61f6b2e0cbf01",
+  "assetLocator": "textures/coral_pink.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:219597-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+    "textureExportConfig:219599-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+    "textureExportConfig:219601-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 147,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 147,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "d19c263a8ba9f385a6f61f6b2e0cbf01",
+      "colorCount": 220,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.0775505249383404,
+      "pixelsHigh": 147,
+      "pixelsWide": 147
+    }
+  ]
+}

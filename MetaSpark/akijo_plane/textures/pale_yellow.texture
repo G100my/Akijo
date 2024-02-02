@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "pale_yellow",
+  "identifier": "texture:218847-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "98d48d63649133ee1d8406f0c04e129c",
+  "assetLocator": "textures/pale_yellow.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 147,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 147,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "98d48d63649133ee1d8406f0c04e129c",
+      "colorCount": 219,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.0774561614778702,
+      "pixelsHigh": 147,
+      "pixelsWide": 147
+    }
+  ]
+}

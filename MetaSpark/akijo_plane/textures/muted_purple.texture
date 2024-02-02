@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "muted_purple",
+  "identifier": "texture:218075-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "5db2c8310a3e801a0cf1d429372e5879",
+  "assetLocator": "textures/muted_purple.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:218081-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+    "textureExportConfig:218087-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9",
+    "textureExportConfig:218093-54bc545b-3c95-4e83-9e1c-2f6bc80d10b9"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 147,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 147,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "5db2c8310a3e801a0cf1d429372e5879",
+      "colorCount": 219,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 1.0772588056304693,
+      "pixelsHigh": 147,
+      "pixelsWide": 147
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "yellow_akijo_圓立體_揮手",
+  "identifier": "master3_d_object_model:1036458-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+  "sourceIdentifier": "asset_collection_model:1036510-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+  "animationMask": {
+    "position": true,
+    "rotation": true,
+    "scale": true
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.45683759450912476,
+  "globalScaleFactor": 1,
+  "height": 0.07073938846588135,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 3.141592502593994,
+    "ry": -1.2309085130691528,
+    "rz": 3.141592502593994,
+    "sx": 0.9999999403953552,
+    "sy": 1,
+    "sz": 1,
+    "x": -0.047043364495038986,
+    "y": 0,
+    "z": 0.3592943251132965
+  },
+  "width": 0.4755934774875641,
+  "children": [
+    {
+      "modelName": "skeleton",
+      "name": "skeleton",
+      "identifier": "skeleton:1036406-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "inverseBindMatrices": [
+        {
+          "m11": -0.7513715028762817,
+          "m12": -2.1248538494110107,
+          "m13": -2.854928595752426E-7,
+          "m14": 0,
+          "m21": -2.854928595752426E-7,
+          "m22": 4.0376977494815947E-7,
+          "m23": -2.253788471221924,
+          "m24": 0,
+          "m31": 2.1248538494110107,
+          "m32": -0.7513715028762817,
+          "m33": -4.0376977494815947E-7,
+          "m34": 0,
+          "m41": -0.3544232249259949,
+          "m42": 0.07542998343706131,
+          "m43": 7.447500394164308E-9,
+          "m44": 1
+        },
+        {
+          "m11": -2.143429756164551,
+          "m12": -0.6966149806976318,
+          "m13": 1.3181127656025637E-7,
+          "m14": 0,
+          "m21": -2.3219425315801345E-7,
+          "m22": 2.8798871198887355E-7,
+          "m23": -2.253788709640503,
+          "m24": 0,
+          "m31": 0.6966149210929871,
+          "m32": -2.143429756164551,
+          "m33": -3.456550814462389E-7,
+          "m34": 0,
+          "m41": -0.28255271911621094,
+          "m42": 0.2299705445766449,
+          "m43": 3.6149817361774694E-8,
+          "m44": 1
+        },
+        {
+          "m11": -2.2527852058410645,
+          "m12": -0.06724777817726135,
+          "m13": 2.326617902781436E-7,
+          "m14": 0,
+          "m21": -2.418007056803617E-7,
+          "m22": 3.0268157047430577E-7,
+          "m23": -2.253788471221924,
+          "m24": 0,
+          "m31": 0.06724747270345688,
+          "m32": -2.2527847290039062,
+          "m33": -3.09761588823676E-7,
+          "m34": 0,
+          "m41": -0.2526816129684448,
+          "m42": 0.14263920485973358,
+          "m43": 4.4870397175600374E-8,
+          "m44": 1
+        },
+        {
+          "m11": 1.6693432769443461E-7,
+          "m12": 2.202502965927124,
+          "m13": -0.4780627191066742,
+          "m14": 0,
+          "m21": 2.253788948059082,
+          "m22": 2.122708622209757E-7,
+          "m23": 8.558704962524644E-7,
+          "m24": 0,
+          "m31": 8.075303981058823E-7,
+          "m32": -0.47806277871131897,
+          "m33": -2.202503204345703,
+          "m34": 0,
+          "m41": -7.428885595572865E-8,
+          "m42": 0.12218466401100159,
+          "m43": 0.34113994240760803,
+          "m44": 1
+        },
+        {
+          "m11": 2.9331008022381866E-7,
+          "m12": 0.263335257768631,
+          "m13": -2.238351821899414,
+          "m14": 0,
+          "m21": 2.253788948059082,
+          "m22": 3.9665721374149143E-7,
+          "m23": 1.4783685742258967E-7,
+          "m24": 0,
+          "m31": 3.3732351312210085E-7,
+          "m32": -2.238351821899414,
+          "m33": -0.26333558559417725,
+          "m34": 0,
+          "m41": -2.2176037006715887E-8,
+          "m42": 0.27875128388404846,
+          "m43": 0.23859412968158722,
+          "m44": 1
+        },
+        {
+          "m11": 2.2118979359220248E-7,
+          "m12": 0.06931409239768982,
+          "m13": -2.2527225017547607,
+          "m14": 0,
+          "m21": 2.253788948059082,
+          "m22": 3.8245909195211425E-7,
+          "m23": 4.013942600522569E-8,
+          "m24": 0,
+          "m31": 3.096223792908859E-7,
+          "m32": -2.25272274017334,
+          "m33": -0.0693143978714943,
+          "m34": 0,
+          "m41": -1.3302924095626167E-8,
+          "m42": 0.13209521770477295,
+          "m43": 0.22805161774158478,
+          "m44": 1
+        },
+        {
+          "m11": -0.0000032202769943978637,
+          "m12": 2.0972232818603516,
+          "m13": -0.8253586292266846,
+          "m14": 0,
+          "m21": -2.253788709640503,
+          "m22": -1.2278702854473522E-7,
+          "m23": 0.000008501015145156998,
+          "m24": 0,
+          "m31": 0.000007878837095631752,
+          "m32": 0.8253586292266846,
+          "m33": 2.0972232818603516,
+          "m34": 0,
+          "m41": -0.0000013742062492383411,
+          "m42": -0.08780159801244736,
+          "m43": -0.3515627384185791,
+          "m44": 1
+        },
+        {
+          "m11": -0.000004809507117897738,
+          "m12": 1.8848755359649658,
+          "m13": -1.2356401681900024,
+          "m14": 0,
+          "m21": -2.253788709640503,
+          "m22": -1.7929399120930611E-7,
+          "m23": 0.000008511976375302766,
+          "m24": 0,
+          "m31": 0.0000070337214310711715,
+          "m32": 1.235640287399292,
+          "m33": 1.8848754167556763,
+          "m34": 0,
+          "m41": -0.000001015040197671624,
+          "m42": -0.47548332810401917,
+          "m43": -0.2600760757923126,
+          "m44": 1
+        },
+        {
+          "m11": -3.869827196467668E-7,
+          "m12": 0.9216027855873108,
+          "m13": -2.0567476749420166,
+          "m14": 0,
+          "m21": -2.253788709640503,
+          "m22": -1.9111243432234915E-7,
+          "m23": 4.6836603928568366E-7,
+          "m24": 0,
+          "m31": -1.3748449134709517E-7,
+          "m32": 2.0567479133605957,
+          "m33": 0.9216029644012451,
+          "m34": 0,
+          "m41": -3.712154850177285E-8,
+          "m42": -0.3086458742618561,
+          "m43": -0.1898505836725235,
+          "m44": 1
+        },
+        {
+          "m11": -1.452917075539517E-7,
+          "m12": 1.9603065252304077,
+          "m13": -1.112096905708313,
+          "m14": 0,
+          "m21": -2.253788471221924,
+          "m22": -1.7627679937959329E-7,
+          "m23": 2.2404826438560121E-7,
+          "m24": 0,
+          "m31": -4.6708862555533415E-8,
+          "m32": 1.112097144126892,
+          "m33": 1.9603068828582764,
+          "m34": 0,
+          "m41": -7.805351742717903E-8,
+          "m42": -0.4513852596282959,
+          "m43": -0.5670956969261169,
+          "m44": 1
+        },
+        {
+          "m11": -3.411238935768779E-7,
+          "m12": 0.24888953566551208,
+          "m13": -2.2400035858154297,
+          "m14": 0,
+          "m21": -2.253788471221924,
+          "m22": -4.6676109377585817E-7,
+          "m23": 3.7197091273810656E-7,
+          "m24": 0,
+          "m31": -2.962163136999152E-7,
+          "m32": 2.2400035858154297,
+          "m33": 0.24888938665390015,
+          "m34": 0,
+          "m41": -1.085964029812203E-8,
+          "m42": -0.3519016206264496,
+          "m43": -0.08643306791782379,
+          "m44": 1
+        },
+        {
+          "m11": -1.0077713596956528E-7,
+          "m12": 0.9840002059936523,
+          "m13": -2.0276360511779785,
+          "m14": 0,
+          "m21": -2.253788709640503,
+          "m22": -4.213177930978418E-7,
+          "m23": -3.392759406750656E-9,
+          "m24": 0,
+          "m31": -2.539099455134419E-7,
+          "m32": 2.0276358127593994,
+          "m33": 0.9839999675750732,
+          "m34": 0,
+          "m41": -2.3867158915891196E-8,
+          "m42": -0.6519877910614014,
+          "m43": -0.32319995760917664,
+          "m44": 1
+        },
+        {
+          "m11": -1.238010867155026E-7,
+          "m12": -0.18912331759929657,
+          "m13": -2.2458395957946777,
+          "m14": 0,
+          "m21": -2.253788471221924,
+          "m22": -3.7028749488854373E-7,
+          "m23": 1.1220134155109918E-7,
+          "m24": 0,
+          "m31": -3.227477520795219E-7,
+          "m32": 2.2458395957946777,
+          "m33": -0.18912331759929657,
+          "m34": 0,
+          "m41": -2.0938684119897744E-9,
+          "m42": -0.36197465658187866,
+          "m43": -0.01672779582440853,
+          "m44": 1
+        },
+        {
+          "m11": 9.121492183794544E-8,
+          "m12": -1.114319086074829,
+          "m13": -1.9590445756912231,
+          "m14": 0,
+          "m21": -2.253788471221924,
+          "m22": -3.328798072743666E-7,
+          "m23": 3.485876121089859E-8,
+          "m24": 0,
+          "m31": -2.5093271460718825E-7,
+          "m32": 1.959044337272644,
+          "m33": -1.114319086074829,
+          "m34": 0,
+          "m41": -1.787947567777337E-8,
+          "m42": -0.6728827357292175,
+          "m43": 0.2927420735359192,
+          "m44": 1
+        },
+        {
+          "m11": -8.602252421496814E-8,
+          "m12": -1.0627549886703491,
+          "m13": -1.9874895811080933,
+          "m14": 0,
+          "m21": -2.253788471221924,
+          "m22": -6.010433253322844E-7,
+          "m23": 3.301154833934561E-7,
+          "m24": 0,
+          "m31": -3.494739360121457E-7,
+          "m32": 1.9874894618988037,
+          "m33": -1.0627549886703491,
+          "m34": 0,
+          "m41": 2.9553228753087524E-9,
+          "m42": -0.3390243649482727,
+          "m43": 0.12793733179569244,
+          "m44": 1
+        },
+        {
+          "m11": -5.6357830402475884E-8,
+          "m12": -2.111097574234009,
+          "m13": -0.7891956567764282,
+          "m14": 0,
+          "m21": -2.2537882328033447,
+          "m22": -2.971360686387925E-7,
+          "m23": 7.320928716580966E-7,
+          "m24": 0,
+          "m31": -4.5357364797382616E-7,
+          "m32": 0.7891953587532043,
+          "m33": -2.111097574234009,
+          "m34": 0,
+          "m41": 3.51090641004248E-8,
+          "m42": -0.4087360203266144,
+          "m43": 0.5304215550422668,
+          "m44": 1
+        },
+        {
+          "m11": -3.492141615879518E-7,
+          "m12": -2.138131856918335,
+          "m13": -0.7127104997634888,
+          "m14": 0,
+          "m21": -2.253788709640503,
+          "m22": -5.963956883903165E-9,
+          "m23": 0.0000011021097634511534,
+          "m24": 0,
+          "m31": -0.0000010197423989666277,
+          "m32": 0.7127106189727783,
+          "m33": -2.138131856918335,
+          "m34": 0,
+          "m41": 1.0431451613612808E-7,
+          "m42": -0.15824809670448303,
+          "m43": 0.32598012685775757,
+          "m44": 1
+        },
+        {
+          "m11": 1.3892778838453523E-7,
+          "m12": -2.2346527576446533,
+          "m13": 0.2930689752101898,
+          "m14": 0,
+          "m21": -2.253788709640503,
+          "m22": 3.667744863378175E-8,
+          "m23": 0.0000013969289511805982,
+          "m24": 0,
+          "m31": -0.0000013621407788377837,
+          "m32": -0.2930688261985779,
+          "m33": -2.2346527576446533,
+          "m34": 0,
+          "m41": 2.3471544352560159E-7,
+          "m42": -0.23277977108955383,
+          "m43": 0.47546252608299255,
+          "m44": 1
+        }
+      ],
+      "jointIdentifiers": [
+        "joint:1036422-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036424-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036426-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036428-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036430-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036432-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036434-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036436-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036438-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036440-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036442-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036444-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036446-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036448-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036450-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036452-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036454-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+        "joint:1036456-9ac804df-557e-40cc-8485-3f6bc0fd8488"
+      ],
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "joint",
+          "name": "right_hand",
+          "identifier": "joint:1036454-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": 0.9091577529907227,
+            "ry": -1.5606008219037903E-7,
+            "rz": -1.5707967281341553,
+            "sx": 0.9999998807907104,
+            "sy": 0.9999998807907104,
+            "sz": 1,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.019",
+              "identifier": "joint:1036456-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0.4521537125110626,
+                "ry": -7.563432546930926E-8,
+                "rz": -2.535144858484273E-7,
+                "sx": 1,
+                "sy": 1.0000001192092896,
+                "sz": 1.000000238418579,
+                "x": -1.891595671874198E-14,
+                "y": 0.2588706910610199,
+                "z": -5.9504479565930524E-8
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "right_head_2",
+          "identifier": "joint:1036450-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": 0.15115006268024445,
+            "ry": 1.1067398020259134E-7,
+            "rz": -1.5707964897155762,
+            "sx": 1,
+            "sy": 0.9999999403953552,
+            "sz": 1,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.015",
+              "identifier": "joint:1036452-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0.7220121026039124,
+                "ry": -1.0172954922893496E-8,
+                "rz": -4.693779942499532E-8,
+                "sx": 1.0000001192092896,
+                "sy": 1.0000001192092896,
+                "sz": 1,
+                "x": -9.260937320015959E-15,
+                "y": 0.3182762861251831,
+                "z": 1.3223199424317045E-8
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "right_head_1",
+          "identifier": "joint:1036446-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": -0.25587573647499084,
+            "ry": 8.971478138164457E-8,
+            "rz": -1.5707961320877075,
+            "sx": 0.9999998807907104,
+            "sy": 0.9999999403953552,
+            "sz": 1,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.013",
+              "identifier": "joint:1036448-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0.4331556260585785,
+                "ry": 9.773940945478898E-8,
+                "rz": 2.3746256516687936E-8,
+                "sx": 0.9999999403953552,
+                "sy": 1.0000001192092896,
+                "sz": 0.9999999403953552,
+                "x": -1.0443184403179095E-14,
+                "y": 0.37163928151130676,
+                "z": 9.917403787085277E-9
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "left_head_1",
+          "identifier": "joint:1036442-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": -0.4505453109741211,
+            "ry": 1.2772148672013373E-8,
+            "rz": -1.570796251296997,
+            "sx": 0.9999999403953552,
+            "sy": 1,
+            "sz": 0.9999999403953552,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.011",
+              "identifier": "joint:1036444-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": -0.34115663170814514,
+                "ry": 1.0391606508619589E-7,
+                "rz": 3.043296814553287E-8,
+                "sx": 0.9999999403953552,
+                "sy": 0.9999999403953552,
+                "sz": 0.9999997615814209,
+                "x": 0,
+                "y": 0.37064629793167114,
+                "z": -1.7355482384573406E-8
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "left_head_2",
+          "identifier": "joint:1036438-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": -0.7611503005027771,
+            "ry": 1.2679352678901523E-8,
+            "rz": -1.5707958936691284,
+            "sx": 0.9999998211860657,
+            "sy": 0.9999997615814209,
+            "sz": 0.9999999403953552,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.009",
+              "identifier": "joint:1036440-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": -0.6334999203681946,
+                "ry": 8.13924998510629E-8,
+                "rz": 8.0606476160483E-8,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 3.1526593825375844E-15,
+                "y": 0.3908560276031494,
+                "z": -6.611626357511113E-9
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "left_hand",
+          "identifier": "joint:1036434-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": -1.5357520580291748,
+            "ry": 1.1653617093543289E-7,
+            "rz": -1.570792317390442,
+            "sx": 0.9999998211860657,
+            "sy": 0.9999999403953552,
+            "sz": 0.9999999403953552,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.007",
+              "identifier": "joint:1036436-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0.2053384780883789,
+                "ry": 9.06987835946893E-8,
+                "rz": -7.934727364045102E-7,
+                "sx": 1,
+                "sy": 0.9999998807907104,
+                "sz": 0.9999999403953552,
+                "x": 2.648234008386513E-13,
+                "y": 0.3246636986732483,
+                "z": 1.3222958727965306E-8
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "left_leg",
+          "identifier": "joint:1036428-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": -1.01716947555542,
+            "ry": -7.392884526780108E-8,
+            "rz": 1.5707961320877075,
+            "sx": 0.9999998211860657,
+            "sy": 1,
+            "sz": 0.9999998807907104,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.004",
+              "identifier": "joint:1036430-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 1.2399486303329468,
+                "ry": -1.9198822087673761E-7,
+                "rz": 9.90501050068815E-8,
+                "sx": 1,
+                "sy": 1,
+                "sz": 0.9999999403953552,
+                "x": 4.728989179685495E-15,
+                "y": 0.25728827714920044,
+                "z": 1.6528995061548812E-8
+              },
+              "children": [
+                {
+                  "modelName": "joint",
+                  "name": "Bone.005",
+                  "identifier": "joint:1036432-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                  "animationMask": {
+                    "position": true,
+                    "rotation": true,
+                    "scale": true
+                  },
+                  "cameraVisibility": "back|front",
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0.08634930849075317,
+                    "ry": -3.3216476680308915E-8,
+                    "rz": 8.467869072603662E-9,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1.0000001192092896,
+                    "x": 0,
+                    "y": 0.1668158769607544,
+                    "z": -2.4793523678567908E-8
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "joint",
+          "name": "right_leg",
+          "identifier": "joint:1036422-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": 1.570796251296997,
+            "ry": 1.7763559923673032E-15,
+            "rz": -3.1585841662453915E-14,
+            "sx": 1,
+            "sy": 0.9999999403953552,
+            "sz": 0.9999998807907104,
+            "x": 6.4530997563496794E-15,
+            "y": 4.3349062539424846E-15,
+            "z": 3.3057938608749282E-9
+          },
+          "children": [
+            {
+              "modelName": "joint",
+              "name": "Bone.001",
+              "identifier": "joint:1036424-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "animationMask": {
+                "position": true,
+                "rotation": true,
+                "scale": true
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 8.175214816219523E-8,
+                "ry": -1.6812052194836724E-7,
+                "rz": 0.91667640209198,
+                "sx": 0.9999999403953552,
+                "sy": 0.9999998807907104,
+                "sz": 0.9999999403953552,
+                "x": -6.611603264872201E-9,
+                "y": 0.15973107516765594,
+                "z": 0
+              },
+              "children": [
+                {
+                  "modelName": "joint",
+                  "name": "Bone.002",
+                  "identifier": "joint:1036426-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                  "animationMask": {
+                    "position": true,
+                    "rotation": true,
+                    "scale": true
+                  },
+                  "cameraVisibility": "back|front",
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 1.7253894313284945E-8,
+                    "ry": -4.425198341095893E-8,
+                    "rz": 0.2843899726867676,
+                    "sx": 0.9999999403953552,
+                    "sy": 1.0000001192092896,
+                    "sz": 1,
+                    "x": 9.917409116155795E-9,
+                    "y": 0.16395609080791473,
+                    "z": -3.1526593825375844E-15
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "mesh",
+          "name": "path128",
+          "identifier": "mesh:1036412-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "animationMask": {
+            "position": true,
+            "rotation": true,
+            "scale": true
+          },
+          "cameraVisibility": "back|front",
+          "castShadow": false,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "nodeName": "path128",
+          "numberOfFaces": 2880,
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "prefabIdentifier": "gltf:1036416-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "receiveShadow": false,
+          "renderPass": "main_scene",
+          "skeletonIdentifier": "skeleton:1036406-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "useEmbeddedBlendshapes": false,
+          "children": [
+            {
+              "modelName": "surfaces",
+              "identifier": "surfaces:1036414-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+              "children": [
+                {
+                  "modelName": "surface",
+                  "name": "surface0",
+                  "identifier": "surface:1036419-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                  "isMaterialIdentifierEnabled": true,
+                  "joints": [
+                    "joint:1036422-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036424-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036426-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036428-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036430-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036432-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036434-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036436-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036438-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036440-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036442-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036444-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036446-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036448-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036450-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036452-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036454-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                    "joint:1036456-9ac804df-557e-40cc-8485-3f6bc0fd8488"
+                  ],
+                  "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1036408-9ac804df-557e-40cc-8485-3f6bc0fd8488",
+                  "surfaceGroupIdentifier": "1036420-9ac804df-557e-40cc-8485-3f6bc0fd8488"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

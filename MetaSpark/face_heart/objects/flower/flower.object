@@ -1,0 +1,184 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "flower",
+  "identifier": "master3_d_object_model:2741595-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+  "sourceIdentifier": "asset_collection_model:2741599-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.020000100135803223,
+  "globalScaleFactor": 1,
+  "height": 0.21802473068237305,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.23978114128112793,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Curve.001",
+      "identifier": "mesh:2741549-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Curve.001",
+      "numberOfFaces": 10532,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:2741553-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 1.5707964897155762,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 0.9999999403953552,
+        "sz": 0.9999999403953552,
+        "x": 1.6709907054901123,
+        "y": -0.10874544084072113,
+        "z": -1.2443296909332275
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:2741551-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:2741556-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741523-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741557-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:2741559-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741525-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741560-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface2",
+              "identifier": "surface:2741562-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741527-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741563-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface3",
+              "identifier": "surface:2741565-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741529-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741566-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface4",
+              "identifier": "surface:2741568-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741531-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741569-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface5",
+              "identifier": "surface:2741571-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741533-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741572-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface6",
+              "identifier": "surface:2741574-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741535-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741575-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface7",
+              "identifier": "surface:2741577-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741537-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741578-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface8",
+              "identifier": "surface:2741580-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741539-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741581-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface9",
+              "identifier": "surface:2741583-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741541-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741584-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface10",
+              "identifier": "surface:2741586-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741543-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741587-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface11",
+              "identifier": "surface:2741589-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741545-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741590-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface12",
+              "identifier": "surface:2741592-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2741547-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7",
+              "surfaceGroupIdentifier": "2741593-f306fcb5-5b3a-4616-9eff-8ffdf66c76f7"
+            }
+          ]
+        },
+        {
+          "modelName": "blend_shapes_model",
+          "identifier": "blend_shapes_model:694134-579d3642-a441-4ea1-a11a-3075fec890a3"
+        }
+      ]
+    }
+  ]
+}
