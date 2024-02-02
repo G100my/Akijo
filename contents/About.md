@@ -16,6 +16,6 @@
 
 ⊹ OPENING HOURS ⊹
 
-Sun-Thu｜11:00-22:00
+Sun-Thu｜14:00-22:00
 
-Sat-Fri｜11:00-23:00
+Sat-Fri｜14:00-23:00
