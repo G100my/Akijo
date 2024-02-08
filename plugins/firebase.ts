@@ -28,6 +28,10 @@ export default defineNuxtPlugin(async (nuxtApp) => {
     appId: '1:1006805117774:web:5f42dc166d2b9d4b3a0c1f',
   }
   const app = initializeApp(firebaseConfig)
+
+  // messaging will result in an error under 'http'
+  if (window.location.protocol === 'http:') return {}
+
   const messaging = getMessaging(app)
   const serviceWorkerRegistration = await getRegistration()
 
