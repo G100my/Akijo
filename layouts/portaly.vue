@@ -19,6 +19,9 @@ onMounted(() => {
 })
 
 useForceRefreshJF()
+
+const showNotificationBlock = 'Notification' in window
+console.log('🚀 ~ showNotificationBlock:', showNotificationBlock)
 </script>
 <template>
   <div class="_portaly h-screen w-screen text-gray-50">
@@ -72,7 +75,7 @@ useForceRefreshJF()
             <MenuLinkBlock />
           </section>
 
-          <section class="_post_block">
+          <section v-if="showNotificationBlock" class="_post_block">
             <NotificationBlock />
           </section>
 
