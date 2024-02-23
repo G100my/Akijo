@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ImgBlackAkijo from '@/assets/icon/rich_black.png'
 import ImgUberEats from '@/assets/icon/uber_iOS.svg'
+import ImgShopee from '@/assets/icon/shopee.svg'
 </script>
 <template>
   <a class="_nav_item heartbeat" href="https://store.dudooeat.com/order/store/8df9f38a903c442b9f8c1589445256ca" rel="noreferrer noopener" target="_blank">
@@ -15,6 +16,13 @@ import ImgUberEats from '@/assets/icon/uber_iOS.svg'
   >
     <img :src="ImgUberEats" alt="Akijo - UberEats order link" />
     <p>Uber Eats 幫你送</p>
+  </a>
+  <a class="_nav_item" href="https://shopee.tw/sh910904" rel="noreferrer noopener" target="_blank">
+    <img :src="ImgShopee" alt="Akijo - shopee" />
+    <div class="text-center flex-1">
+      <p>萩条賣場</p>
+      <p class="text-sm">Olend 包包這裡有<br />也可以在上面的線上菜單裡看喔！</p>
+    </div>
   </a>
 </template>
 <style>
