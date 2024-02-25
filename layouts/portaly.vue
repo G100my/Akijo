@@ -20,8 +20,11 @@ onMounted(() => {
 
 useForceRefreshJF()
 
-const showNotificationBlock = 'Notification' in window
-console.log('🚀 ~ showNotificationBlock:', showNotificationBlock)
+const showNotificationBlock = ref(false)
+onMounted(() => {
+  showNotificationBlock.value = 'PushManager' in window && 'serviceWorker' in navigator
+  console.log('🚀 ~ showNotificationBlock:', showNotificationBlock)
+})
 </script>
 <template>
   <div class="_portaly h-screen w-screen text-gray-50">

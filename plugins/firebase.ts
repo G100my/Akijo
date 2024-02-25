@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { getMessaging, getToken } from 'firebase/messaging'
+import { Messaging, getMessaging, getToken } from 'firebase/messaging'
 import { SERVICEWORKER_FILE_NAME } from '~/constants'
 import ImgAvatar from '@/assets/avatar.jpg'
 
@@ -18,6 +18,7 @@ async function getRegistration(): Promise<ServiceWorkerRegistration> {
 }
 
 export default defineNuxtPlugin(async (nuxtApp) => {
+  if (!('serviceWorker' in navigator) || !('PushManager' in window)) return {}
   // https://firebase.google.com/docs/web/setup#available-libraries
   const firebaseConfig = {
     apiKey: 'AIzaSyCFCE3HwDb9hc8jgtSIksyLDFP9avp-_cc',
@@ -32,8 +33,13 @@ export default defineNuxtPlugin(async (nuxtApp) => {
   // messaging will result in an error under 'http'
   if (window.location.protocol === 'http:') return {}
 
-  const messaging = getMessaging(app)
-  const serviceWorkerRegistration = await getRegistration()
+  let messaging: Messaging, serviceWorkerRegistration: ServiceWorkerRegistration
+  try {
+    messaging = getMessaging(app)
+    serviceWorkerRegistration = await getRegistration()
+  } catch (error) {
+    console.error(error)
+  }
 
   return {
     provide: {
