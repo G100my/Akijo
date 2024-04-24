@@ -3,6 +3,11 @@ import anime from 'animejs'
 import ImgBg from 'assets/1696293298652.jpg'
 import ImgAvatar from 'assets/avatar.jpg'
 
+definePageMeta({
+  path: '/',
+  layout: 'empty',
+})
+
 const brandKey = 'Akijo 萩条集結所'
 
 onMounted(() => {
@@ -22,20 +27,27 @@ useForceRefreshJF()
 
 const showNotificationBlock = ref(false)
 onMounted(() => {
-  showNotificationBlock.value = 'PushManager' in window && 'serviceWorker' in navigator
+  showNotificationBlock.value =
+    'PushManager' in window && 'serviceWorker' in navigator
   console.log('🚀 ~ showNotificationBlock:', showNotificationBlock)
 })
 </script>
 <template>
   <div class="_portaly h-screen w-screen text-gray-50">
     <img class="h-full w-full object-cover absolute" :src="ImgBg" alt="" />
-    <div class="py-6 px-4 backdrop-blur h-full w-full flex flex-col items-center overflow-y-auto">
+    <div
+      class="py-6 px-4 backdrop-blur h-full w-full flex flex-col items-center overflow-y-auto"
+    >
       <main class="container h-full max-w-md">
         <div class="pt-5 pb-20 space-y-3">
           <section class="_post_block text-center !pt-3">
             <h1 class="text-6xl my-5 burnfont">萩条集結所</h1>
             <div class="flex justify-around mb-10">
-              <img class="w-32 h-32 rounded-full" :src="ImgAvatar" :alt="brandKey" />
+              <img
+                class="w-32 h-32 rounded-full"
+                :src="ImgAvatar"
+                :alt="brandKey"
+              />
             </div>
 
             <MarkdownAbout />
@@ -43,14 +55,21 @@ onMounted(() => {
             <hr />
 
             <nav class="grid grid-cols-2 text-sky-400">
-              <a href="https://www.instagram.com/stories/akijo____/" target="_blank">
+              <a
+                href="https://www.instagram.com/stories/akijo____/"
+                target="_blank"
+              >
                 <i class="ri-instagram-line text-2xl" />
-                <span class="jf-openhuninn text-1xl align-bottom ml-2">akijo____</span>
+                <span class="jf-openhuninn text-1xl align-bottom ml-2"
+                  >akijo____</span
+                >
               </a>
               <a href="tel:073229337">
                 <i class="ri-phone-line text-2xl" />
                 <span>07-322-9337</span>
-                <p class="text-xs">市話僅限特殊情況聯絡，<br />外帶點餐請使用下方外帶線上連結。</p>
+                <p class="text-xs">
+                  市話僅限特殊情況聯絡，<br />外帶點餐請使用下方外帶線上連結。
+                </p>
               </a>
             </nav>
           </section>
@@ -104,7 +123,13 @@ onMounted(() => {
 }
 
 ._post_block {
-  @apply bg-primary-bg rounded-lg py-8 px-4;
+  @apply bg-slate-950 rounded-lg py-8 px-4;
+}
+._post_block hr {
+  @apply my-8 w-8/12 mx-auto;
+}
+._post_block strong {
+  font-size: 1.3rem;
 }
 
 .markdown-body h2 {
@@ -115,51 +140,5 @@ onMounted(() => {
 }
 .markdown-body ol {
   @apply list-decimal pl-8;
-}
-
-.heartbeat {
-  -webkit-animation: heartbeat 1.5s steps(2, end) 2s infinite both;
-  animation: heartbeat 1.5s steps(2, end) 2s infinite both;
-}
-@keyframes heartbeat {
-  from {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  10% {
-    -webkit-transform: scale(1.04);
-    transform: scale(1.04);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  17% {
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-  33% {
-    -webkit-transform: scale(1.06);
-    transform: scale(1.06);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-  45% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-  }
-}
-
-section hr {
-  @apply my-8 w-8/12 mx-auto;
-}
-section strong {
-  font-size: 1.3rem;
 }
 </style>

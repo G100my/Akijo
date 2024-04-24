@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bulletClass {
+  @apply h-2.5 w-2.5 bg-slate-500 transition-[width] cursor-pointer;
+}
+.bulletActiveClass {
+  @apply w-7 bg-design-orange;
+}
+.horizontalClass {
+  @apply flex gap-4 h-2.5 items-center mx-auto justify-center !bottom-7;
+}
+.horizontalClass_offset {
+  @apply flex gap-4 h-2.5 items-center mx-auto justify-center !bottom-7 !left-[140px] !w-fit;
+}
+
+/* page transition */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}

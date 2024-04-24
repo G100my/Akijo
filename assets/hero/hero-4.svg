@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="136.463" height="127.439" viewBox="0 0 136.463 127.439">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="136.463" height="127.439" fill="#e45a24"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_75" data-name="Path 75" d="M43.405,0C25.954.085,12.964,27.929,57.091,55.125,19.226,31.79-.166,46.233,0,60.676.162,74.689,18.736,88.7,56.713,68.208c-77.119,41.617,8.623,94.462,11.143,6.867-2.52,87.6,86.118,39.766,11.518-6.216,37.863,23.338,57.254,8.895,57.088-5.548C136.3,49.3,117.726,35.283,79.748,55.778c77.121-41.617-8.621-94.464-11.14-6.868C69.633,13.276,55.576.053,43.557,0Z" transform="translate(0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_41" data-name="Group 41" transform="translate(0 0)">
+    <g id="Group_38" data-name="Group 38" transform="translate(0 0)">
+      <g id="Group_37" data-name="Group 37" clip-path="url(#clip-path)">
+        <path id="Path_74" data-name="Path 74" d="M67.856,75.074c-2.52,87.6-88.261,34.749-11.141-6.867C-20.4,109.823-17.51,9.145,57.091,55.125c-74.6-45.98,14.036-93.812,11.516-6.216,2.52-87.6,88.263-34.749,11.143,6.867,77.121-41.616,74.223,59.063-.376,13.082,74.6,45.98-14.037,93.812-11.518,6.216" transform="translate(0 0)" fill="#fed727"/>
+      </g>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(0 0)">
+      <g id="Group_39" data-name="Group 39" clip-path="url(#clip-path-2)">
+        <text id="mtfk" transform="matrix(1, 0.005, -0.005, 1, 73.798, 17.92)" font-size="17" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="0">mt</tspan><tspan y="0" letter-spacing="0.009em">f</tspan><tspan y="0">k</tspan></text>
+        <text id="mtfk-2" data-name="mtfk" transform="matrix(1, 0.005, -0.005, 1, 17.771, 121.633)" font-size="17" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="0">mt</tspan><tspan y="0" letter-spacing="0.009em">f</tspan><tspan y="0">k</tspan></text>
+        <text id="mtfk-3" data-name="mtfk" transform="matrix(1, 0.005, -0.005, 1, 47.248, 66.665)" font-size="17" font-family="Arial-Black, Arial" font-weight="800"><tspan x="0" y="0">mt</tspan><tspan y="0" letter-spacing="0.009em">f</tspan><tspan y="0">k</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -19,7 +19,10 @@ self.addEventListener('push', function (event) {
 
   const options: NotificationOptions = data.notification!
 
-  const promiseChain = self.registration.showNotification(data.notification!.title ?? 'Lubn App', options)
+  const promiseChain = self.registration.showNotification(
+    data.notification!.title ?? 'Lubn App',
+    options,
+  )
 
   // collapse notifications
   // https://web.dev/articles/push-notifications-common-notification-patterns#merging_notifications

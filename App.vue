@@ -2,15 +2,16 @@
 //
 </script>
 <template>
-  <NuxtLayout name="portaly">
+  <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
 </template>
 <style>
 body {
   font-family:
-    Sora,
     'Noto Sans TC',
+    Sora,
+    Arial,
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -18,7 +19,6 @@ body {
     Segoe UI,
     Roboto,
     'Helvetica Neue',
-    Arial,
     sans-serif,
     'Apple Color Emoji',
     'Segoe UI Emoji',

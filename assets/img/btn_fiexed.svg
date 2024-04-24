@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.693" height="106.072" viewBox="0 0 56.693 106.072">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_60" data-name="Rectangle 60" width="106.072" height="56.693" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="order_fixed" transform="translate(56.693) rotate(90)">
+    <g id="Group_97" data-name="Group 97" clip-path="url(#clip-path)">
+      <path id="Path_188" data-name="Path 188" d="M87.071,0A14.794,14.794,0,0,0,76.929,4.329a1.784,1.784,0,0,1-2.406,0,14.046,14.046,0,0,0-20.285,0,1.782,1.782,0,0,1-2.4,0A14.8,14.8,0,0,0,41.691,0,14.792,14.792,0,0,0,31.549,4.329a1.783,1.783,0,0,1-2.405,0A14.794,14.794,0,0,0,19,0C8.524,0,0,12.716,0,28.346S8.524,56.693,19,56.693a14.794,14.794,0,0,0,10.142-4.329,1.783,1.783,0,0,1,2.405,0,14.792,14.792,0,0,0,10.142,4.329,14.8,14.8,0,0,0,10.143-4.329,1.782,1.782,0,0,1,2.4,0,14.046,14.046,0,0,0,20.285,0,1.784,1.784,0,0,1,2.406,0,14.794,14.794,0,0,0,10.142,4.329c10.477,0,19-12.716,19-28.347S97.548,0,87.071,0" fill="#5bb431"/>
+      <text id="線上點餐" transform="translate(11.536 38.347) rotate(-90)" fill="#fff" font-size="14" font-family="NotoSansTC-Black, Noto Sans TC" font-weight="800"><tspan x="-7" y="16">線</tspan><tspan x="-7" y="37">上</tspan><tspan x="-7" y="58">點</tspan><tspan x="-7" y="79">餐</tspan></text>
+    </g>
+  </g>
+</svg>
