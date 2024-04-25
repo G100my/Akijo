@@ -87,12 +87,6 @@ onMounted(() => {
 </script>
 <template>
   <section>
-    <div>
-      <img
-        src="https://cdn.dudooeat.com/c0140325-6b85-479a-810f-bea4462c1d5e"
-        alt=""
-      />
-    </div>
     <section
       class="h-[680px] bg-design-dark relative flex items-center justify-center"
     >

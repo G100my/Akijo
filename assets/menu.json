@@ -1,0 +1,448 @@
+[
+  {
+    "id": "420285",
+    "name": "萩•浪漫基因特調",
+    "items": [
+      {
+        "id": "1542109",
+        "name": "草莓黑咖啡",
+        "photo_id": "af372071-c8ec-4ad6-aea2-e5b4469c23da",
+        "photo_url": "//cdn.dudooeat.com/af372071-c8ec-4ad6-aea2-e5b4469c23da_t",
+        "intro": "法國草莓果泥製造的幸福好滋味｜甜度固定｜含微量酒精"
+      },
+      {
+        "id": "1728807",
+        "name": "玫荔新世界",
+        "photo_id": "c0140325-6b85-479a-810f-bea4462c1d5e",
+        "photo_url": "//cdn.dudooeat.com/c0140325-6b85-479a-810f-bea4462c1d5e_t",
+        "intro": "埔里玫瑰醬、法國荔枝果泥、與氣泡黑咖啡的浪漫結合｜甜度固定"
+      },
+      {
+        "id": "1766461",
+        "name": "荼蘼",
+        "photo_id": "02ef4bdd-17a8-460e-b627-d2810846b9c0",
+        "photo_url": "//cdn.dudooeat.com/02ef4bdd-17a8-460e-b627-d2810846b9c0_t",
+        "intro": "哥倫比亞 克拉拉莊園 水洗 冰滴萃取/桂花鐵觀音茶糖/奶奶奶蓋"
+      }
+    ]
+  },
+  {
+    "id": "279356",
+    "name": "單品咖啡",
+    "items": [
+      {
+        "id": "1583180",
+        "name": "衣索比亞 柯契爾\n雪冽圖 G1 水洗",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "焙度｜淺焙\n風味｜茉莉花 白桃 柑橘"
+      },
+      {
+        "id": "2032061",
+        "name": "哥斯大黎加 塔拉珠 帶刺玫瑰 雙厭熱衝擊蜜處理",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "風味｜玫瑰 荔枝 柑橘 可可"
+      },
+      {
+        "id": "1570773",
+        "name": "冰滴咖啡 cold brew",
+        "photo_id": "a777d6bf-b33c-423d-bec2-ec0ebcd5ae81",
+        "photo_url": "//cdn.dudooeat.com/a777d6bf-b33c-423d-bec2-ec0ebcd5ae81_t",
+        "intro": "低溫長時間萃取，有著乾淨口感與酒酵香氣。\r\n豆款｜哥斯大黎加 帶刺玫瑰 雙厭熱衝擊蜜處理\r\n風味｜玫瑰 荔枝 柑橘 可可\r\n\r\n豆款 ｜衣索比亞 雪冽圖 G1 水洗\r\n風味｜橙花 水蜜桃 伯爵 葡萄柚"
+      }
+    ]
+  },
+  {
+    "id": "270113",
+    "name": "義式咖啡",
+    "items": [
+      {
+        "id": "1542103",
+        "name": "美式咖啡",
+        "photo_id": "4f2ed4a4-453f-4600-b343-dce0f133a9d0",
+        "photo_url": "//cdn.dudooeat.com/4f2ed4a4-453f-4600-b343-dce0f133a9d0_t",
+        "intro": "簡單舒服品嚐咖啡的原始風味。"
+      },
+      {
+        "id": "1542105",
+        "name": "拿鐵",
+        "photo_id": "d2e501ba-0ccb-48b0-bc89-535b0ee2c1fe",
+        "photo_url": "//cdn.dudooeat.com/d2e501ba-0ccb-48b0-bc89-535b0ee2c1fe_t",
+        "intro": "咖啡與牛奶，喜歡的人總是喜歡。"
+      },
+      {
+        "id": "1554284",
+        "name": "泡泡美式",
+        "photo_id": "d01c28a7-9c3c-4912-9730-275fcc2ebbb8",
+        "photo_url": "//cdn.dudooeat.com/d01c28a7-9c3c-4912-9730-275fcc2ebbb8_t",
+        "intro": "擁有綿密泡沫的美式黑咖啡，不只是一霎那花火(限冰飲)"
+      },
+      {
+        "id": "1542104",
+        "name": "檸檬黑咖啡",
+        "photo_id": "4c527a14-3205-4b3a-9533-6b28f1cff265",
+        "photo_url": "//cdn.dudooeat.com/4c527a14-3205-4b3a-9533-6b28f1cff265_t",
+        "intro": "新鮮檸檬汁與黑咖啡，酸甜平衡的清爽滋味。甜度固定｜限冰飲"
+      },
+      {
+        "id": "1559229",
+        "name": "卡布奇諾",
+        "photo_id": "b899411b-e48d-42e8-ab36-60a1aea6c70d",
+        "photo_url": "//cdn.dudooeat.com/b899411b-e48d-42e8-ab36-60a1aea6c70d_t",
+        "intro": "綿密奶泡,與拿鐵咖啡含量相同但牛奶較少濃度較高。"
+      },
+      {
+        "id": "1542106",
+        "name": "焦糖拿鐵",
+        "photo_id": "960e24c3-f973-40ce-a1cd-68c9945b2c69",
+        "photo_url": "//cdn.dudooeat.com/960e24c3-f973-40ce-a1cd-68c9945b2c69_t",
+        "intro": "手工熬煮三溫焦糖。甜度固定。"
+      },
+      {
+        "id": "1542107",
+        "name": "法芙娜摩卡",
+        "photo_id": "b4318174-25f6-4b53-bef5-538b51882ee2",
+        "photo_url": "//cdn.dudooeat.com/b4318174-25f6-4b53-bef5-538b51882ee2_t",
+        "intro": "法國法芙娜可可粉，建議來點甜。"
+      },
+      {
+        "id": "1542108",
+        "name": "蜂蜜肉桂拿鐵",
+        "photo_id": "42681973-14c7-4586-bdaa-f9ed1c0ddf58",
+        "photo_url": "//cdn.dudooeat.com/42681973-14c7-4586-bdaa-f9ed1c0ddf58_t",
+        "intro": "高雄小農龍眼蜜、青花肉桂粉。沒錯！是為肉桂愛好者量身打造的！\r\n甜度固定。"
+      },
+      {
+        "id": "1542102",
+        "name": "義式濃縮",
+        "photo_id": "ff8a8b22-16d5-436d-a1cf-2df5584ab249",
+        "photo_url": "//cdn.dudooeat.com/ff8a8b22-16d5-436d-a1cf-2df5584ab249_t",
+        "intro": "約40ml (1~2口的量)"
+      }
+    ]
+  },
+  {
+    "id": "270115",
+    "name": "充滿泡泡",
+    "items": [
+      {
+        "id": "1542114",
+        "name": "苦戀氣泡黑",
+        "photo_id": "51b4b622-c3bc-4ce3-863b-9b2dcad64566",
+        "photo_url": "//cdn.dudooeat.com/51b4b622-c3bc-4ce3-863b-9b2dcad64566_t",
+        "intro": "無糖的黑咖啡將與氣泡水交織出迷人的苦感，明知你會苦卻深深陷入><。"
+      },
+      {
+        "id": "1542116",
+        "name": "桑椹果醋氣泡",
+        "photo_id": "857b7896-a1d8-4de1-a61d-435c695b5522",
+        "photo_url": "//cdn.dudooeat.com/857b7896-a1d8-4de1-a61d-435c695b5522_t",
+        "intro": "小農自釀桑椹果醋/季節限定"
+      },
+      {
+        "id": "1981123",
+        "name": "檸檬果醋氣泡",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "高雄小農自釀檸檬果醋\r\n酸酸甜甜bubble \r\n對身體很不錯的東東"
+      },
+      {
+        "id": "1542115",
+        "name": "荔枝玫瑰氣泡",
+        "photo_id": "4c10b94e-e0a6-48cf-998d-1a2653165aa4",
+        "photo_url": "//cdn.dudooeat.com/4c10b94e-e0a6-48cf-998d-1a2653165aa4_t",
+        "intro": "法國荔枝果泥、埔里山形玫瑰醬，偷跟你說是老闆的最愛。甜度固定。"
+      },
+      {
+        "id": "1669593",
+        "name": "誰沒有一點琴桑",
+        "photo_id": "96c08061-f395-472c-a5c6-136bf41c5fef",
+        "photo_url": "//cdn.dudooeat.com/96c08061-f395-472c-a5c6-136bf41c5fef_t",
+        "intro": "小農自釀桑椹醋、龐貝琴酒、新鮮檸檬汁。\r\n你有我也有，這不是失戀，是找回自己的味道。"
+      }
+    ]
+  },
+  {
+    "id": "270114",
+    "name": "喝點牛奶",
+    "items": [
+      {
+        "id": "1542110",
+        "name": "焦糖牛奶",
+        "photo_id": "b14475e8-e348-4f96-8d21-ac39d880c01c",
+        "photo_url": "//cdn.dudooeat.com/b14475e8-e348-4f96-8d21-ac39d880c01c_t",
+        "intro": "手工熬煮三溫焦糖，甜度固定。"
+      },
+      {
+        "id": "1542111",
+        "name": "法芙娜可可",
+        "photo_id": "3c62963b-7475-44cc-a415-dbc30a0856bb",
+        "photo_url": "//cdn.dudooeat.com/3c62963b-7475-44cc-a415-dbc30a0856bb_t",
+        "intro": "法國法芙娜可可粉，濃的那種！建議來點甜。"
+      },
+      {
+        "id": "1542112",
+        "name": "花蓮蜜香奶茶",
+        "photo_id": "4e8a8a60-884e-455a-b75d-68f801337040",
+        "photo_url": "//cdn.dudooeat.com/4e8a8a60-884e-455a-b75d-68f801337040_t",
+        "intro": "花蓮無毒農業園區茶葉使用、蜜糖香紅茶製法、低溫研磨細茶粉，濃郁茶香氣息。"
+      },
+      {
+        "id": "1542113",
+        "name": "炭焙烏龍奶茶",
+        "photo_id": "eb4f03c4-0c6b-4c32-b3ad-08a38c93b5c0",
+        "photo_url": "//cdn.dudooeat.com/eb4f03c4-0c6b-4c32-b3ad-08a38c93b5c0_t",
+        "intro": "有機茶園茶葉使用、龍眼木炭焙熟香烏龍茶製法、低溫研磨細茶粉，濃郁茶香氣息。"
+      }
+    ]
+  },
+  {
+    "id": "272066",
+    "name": "萩甜",
+    "items": [
+      {
+        "id": "2104732",
+        "name": "瑪黑伯爵千層",
+        "photo_id": "2a7867a1-366d-4a86-86cc-5114bb0fb8a4",
+        "photo_url": "//cdn.dudooeat.com/2a7867a1-366d-4a86-86cc-5114bb0fb8a4_t",
+        "intro": ""
+      },
+      {
+        "id": "2177792",
+        "name": "糖漬栗子千層",
+        "photo_id": "66f6ba0b-8cd7-4fa2-95aa-a8cd7e172197",
+        "photo_url": "//cdn.dudooeat.com/66f6ba0b-8cd7-4fa2-95aa-a8cd7e172197_t",
+        "intro": ""
+      },
+      {
+        "id": "2158972",
+        "name": "榛果巧克力千層",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": ""
+      },
+      {
+        "id": "2125543",
+        "name": "桑椹四葉乳酪千層",
+        "photo_id": "d5c50f53-d622-4d3a-92ec-87cc532dc032",
+        "photo_url": "//cdn.dudooeat.com/d5c50f53-d622-4d3a-92ec-87cc532dc032_t",
+        "intro": ""
+      },
+      {
+        "id": "2134231",
+        "name": "香草巴斯克乳酪",
+        "photo_id": "24ce7e77-7a8d-4357-9def-06c5205bf9fb",
+        "photo_url": "//cdn.dudooeat.com/24ce7e77-7a8d-4357-9def-06c5205bf9fb_t",
+        "intro": ""
+      },
+      {
+        "id": "2152810",
+        "name": "香草可麗露",
+        "photo_id": "996b4971-5d8b-4ae6-9b10-4d16a7721a58",
+        "photo_url": "//cdn.dudooeat.com/996b4971-5d8b-4ae6-9b10-4d16a7721a58_t",
+        "intro": ""
+      },
+      {
+        "id": "1564407",
+        "name": "泰式奶茶閃電泡芙",
+        "photo_id": "cb0d41f9-6aff-4b17-b508-8ba4fbee4ce7",
+        "photo_url": "//cdn.dudooeat.com/cb0d41f9-6aff-4b17-b508-8ba4fbee4ce7_t",
+        "intro": "閃電泡芙殼、泰式奶茶卡士達醬、泰式奶茶奶霜、掛霜腰果、杏仁片、開心果。\r\n\r\n蛋奶素 無吉利丁\r\n過敏原 堅果-杏仁、開心果、腰果/ 奶製品"
+      },
+      {
+        "id": "2053731",
+        "name": "愛你酒酒提拉米蘇",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": ""
+      },
+      {
+        "id": "1641044",
+        "name": "香草聖多諾黑",
+        "photo_id": "931ea2c5-e504-44a1-a5e8-5ccf734e1e94",
+        "photo_url": "//cdn.dudooeat.com/931ea2c5-e504-44a1-a5e8-5ccf734e1e94_t",
+        "intro": "內容物： 香草奶霜/ 焦糖泡芙/法式千層酥\r\n（過敏原：乳製品-鮮奶油/麩質/蛋）"
+      },
+      {
+        "id": "1848812",
+        "name": "絲滑巧克力歐貝拉蛋糕",
+        "photo_id": "f333bbc5-0194-4323-9499-8813ba57a518",
+        "photo_url": "//cdn.dudooeat.com/f333bbc5-0194-4323-9499-8813ba57a518_t",
+        "intro": "濃縮咖啡/杏仁海綿蛋糕/苦甜巧克力/絲絨巧克力奶霜／咖啡奶油霜\r\n過敏原 堅果-杏仁粉/ 奶製品"
+      },
+      {
+        "id": "1774892",
+        "name": "榛果花圈泡芙",
+        "photo_id": "7957a3a6-b9ae-4676-8f8f-af573b803173",
+        "photo_url": "//cdn.dudooeat.com/7957a3a6-b9ae-4676-8f8f-af573b803173_t",
+        "intro": " "
+      },
+      {
+        "id": "1641038",
+        "name": "提拉米蘇閃電泡芙",
+        "photo_id": "b0b823cb-7088-4b3d-a12d-22d54f3a86b2",
+        "photo_url": "//cdn.dudooeat.com/b0b823cb-7088-4b3d-a12d-22d54f3a86b2_t",
+        "intro": "閃電泡芙殼、泰式奶茶卡士達醬、泰式奶茶奶霜、掛霜腰果、杏仁片、開心果。\r\n\r\n蛋奶素 無吉利丁\r\n過敏原 堅果-杏仁、開心果、腰果/ 奶製品"
+      },
+      {
+        "id": "1564470",
+        "name": "香草焦糖布丁",
+        "photo_id": "877d1f7e-1326-45d8-9248-bcbc3c372bf7",
+        "photo_url": "//cdn.dudooeat.com/877d1f7e-1326-45d8-9248-bcbc3c372bf7_t",
+        "intro": "（過敏原：乳製品-鮮奶油/蛋）"
+      },
+      {
+        "id": "1960445",
+        "name": "甜點隨機購",
+        "photo_id": "9269cedb-337a-43a7-89ea-a1f447d83e66",
+        "photo_url": "//cdn.dudooeat.com/9269cedb-337a-43a7-89ea-a1f447d83e66_t",
+        "intro": "今日即期品項不挑款\r\n便便價享受精緻甜甜"
+      }
+    ]
+  },
+  {
+    "id": "284534",
+    "name": "萩貨",
+    "items": [
+      {
+        "id": "2162291",
+        "name": "空氣吊飾-Akijo",
+        "photo_id": "ea39015e-a11b-41a0-bd96-cad3c71a6826",
+        "photo_url": "//cdn.dudooeat.com/ea39015e-a11b-41a0-bd96-cad3c71a6826_t",
+        "intro": ""
+      },
+      {
+        "id": "2162294",
+        "name": "空氣吊飾-mtfk",
+        "photo_id": "9dd72104-e494-4783-bf40-ed504a1fc9eb",
+        "photo_url": "//cdn.dudooeat.com/9dd72104-e494-4783-bf40-ed504a1fc9eb_t",
+        "intro": ""
+      },
+      {
+        "id": "2162297",
+        "name": "空氣吊飾-橘人",
+        "photo_id": "ac7e2324-8a80-4b50-9a32-597ca17ed243",
+        "photo_url": "//cdn.dudooeat.com/ac7e2324-8a80-4b50-9a32-597ca17ed243_t",
+        "intro": ""
+      },
+      {
+        "id": "2162302",
+        "name": "空氣吊飾-橘雲",
+        "photo_id": "eab8b944-db57-4a1a-9cf1-ec82c3f8e77f",
+        "photo_url": "//cdn.dudooeat.com/eab8b944-db57-4a1a-9cf1-ec82c3f8e77f_t",
+        "intro": ""
+      },
+      {
+        "id": "1880115",
+        "name": "新・萩貼",
+        "photo_id": "82754ebc-cafd-4f76-953e-4b364147e7a3",
+        "photo_url": "//cdn.dudooeat.com/82754ebc-cafd-4f76-953e-4b364147e7a3_t",
+        "intro": ""
+      },
+      {
+        "id": "1603259",
+        "name": "萩杯",
+        "photo_id": "92c86259-ca91-40b5-a69f-73ca52a524b5",
+        "photo_url": "//cdn.dudooeat.com/92c86259-ca91-40b5-a69f-73ca52a524b5_t",
+        "intro": "採用304雙層不鏽鋼製 配上萩条形象雷雕 甚至連杯底都有 喝完飲品再見一面"
+      },
+      {
+        "id": "1604459",
+        "name": "萩缸",
+        "photo_id": "7787109e-17cc-47fa-aa2a-616a8deff2d5",
+        "photo_url": "//cdn.dudooeat.com/7787109e-17cc-47fa-aa2a-616a8deff2d5_t",
+        "intro": "復古金屬菸灰缸 三個凹槽設計 抽雪茄也可以用 akijo雷雕環繞 被萩条擁抱"
+      },
+      {
+        "id": "1604460",
+        "name": "萩貼",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "各種貼紙一次滿足 有兩版 走過路過不要錯過"
+      },
+      {
+        "id": "1901446",
+        "name": "萩条打火機",
+        "photo_id": "89f5aad5-b7b0-4373-984d-b61a655d8a73",
+        "photo_url": "//cdn.dudooeat.com/89f5aad5-b7b0-4373-984d-b61a655d8a73_t",
+        "intro": "就是打火機\r\n可灌瓦斯"
+      }
+    ]
+  },
+  {
+    "id": "324855",
+    "name": "萩食",
+    "items": [
+      {
+        "id": "1760851",
+        "name": "德式香腸馬鈴薯鹹派",
+        "photo_id": "3abae074-d563-42e4-8316-0e562b18c3ab",
+        "photo_url": "//cdn.dudooeat.com/3abae074-d563-42e4-8316-0e562b18c3ab_t",
+        "intro": "餓了嗎？吃這個.ᐟ.ᐟ"
+      },
+      {
+        "id": "1760852",
+        "name": "松露野菇南瓜鹹派",
+        "photo_id": "a4c70c52-ee62-4e0e-a0b7-cbb37be279b6",
+        "photo_url": "//cdn.dudooeat.com/a4c70c52-ee62-4e0e-a0b7-cbb37be279b6_t",
+        "intro": "愛松露的朋友不可錯過.ᐟ.ᐟ"
+      }
+    ]
+  },
+  {
+    "id": "399962",
+    "name": "精品咖啡豆",
+    "items": [
+      {
+        "id": "2032410",
+        "name": "衣索比亞 柯契爾 雪冽圖 水洗",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "焙度｜淺焙 \r\n風味｜橙花 水蜜桃 伯爵 葡萄柚"
+      },
+      {
+        "id": "2032411",
+        "name": "哥斯大黎加 卡內特 蕭邦 葡萄乾蜜處理",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "焙度｜淺中焙\r\n風味｜玫瑰 藍莓 鳳梨 芒果 焦糖"
+      },
+      {
+        "id": "2032412",
+        "name": "哥斯大黎加 帶刺玫瑰 雙厭熱衝擊蜜處理",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "焙度｜淺中焙\r\n風味｜玫瑰 荔枝 柑橘 可可"
+      },
+      {
+        "id": "2038708",
+        "name": "耳掛｜雪冽圖",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "每包12g"
+      },
+      {
+        "id": "2038709",
+        "name": "耳掛｜蕭邦",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "每包12g"
+      },
+      {
+        "id": "2038710",
+        "name": "耳掛｜帶刺玫瑰",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": "每包12g"
+      },
+      {
+        "id": "2123476",
+        "name": "濾掛禮盒",
+        "photo_id": "",
+        "photo_url": "//cdn.dudooeat.com/_t",
+        "intro": ""
+      }
+    ]
+  }
+]

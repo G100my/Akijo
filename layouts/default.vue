@@ -20,17 +20,18 @@ import AkijoH1 from '@/assets/h1.svg'
       </div>
       <ul class="w-full flex-[845] flex items-center justify-center">
         <li v-for="i in ROUTES" class="py-3 px-4 whitespace-nowrap">
-          <NuxtLink :to="i.to">{{ i.label }}</NuxtLink>
+          <NuxtLink :to="i.to" :target="i.target">{{ i.label }}</NuxtLink>
         </li>
       </ul>
       <ul class="flex-[320] flex items-center justify-center">
         <li v-for="i in QUICK_LINKS">
-          <NuxtLink
-            :to="i.to"
+          <a
+            :href="i.to"
+            target="_blank"
             class="px-4 aspect-square flex items-center justify-center"
           >
             <component :is="i.icon" class="h-6 w-6" />
-          </NuxtLink>
+          </a>
         </li>
       </ul>
     </nav>
@@ -55,13 +56,14 @@ import AkijoH1 from '@/assets/h1.svg'
         </section>
         <section class="text-center">
           <h4>⊹ SOCIAL ⊹</h4>
-          <ul class="flex justify-center">
+          <ul class="flex justify-center text-white gap-2 mt-1">
             <li v-for="i in QUICK_LINKS">
               <NuxtLink
                 :to="i.to"
-                class="px-4 aspect-square flex items-center justify-center"
+                target="_blank"
+                class="aspect-square flex items-center justify-center px-3"
               >
-                <component :is="i.icon" />
+                <component :is="i.icon" class="w-4" />
               </NuxtLink>
             </li>
           </ul>

@@ -17,7 +17,11 @@ export const ROUTES = [
   { label: 'Akijo 好朋友', to: '/partner' },
   { label: '有趣的事', to: '/events' },
   { label: 'Contacts', to: '/contacts' },
-  { label: '線上點餐', to: '/' },
+  {
+    label: '線上點餐',
+    to: 'https://store.dudooeat.com/order/store/8df9f38a903c442b9f8c1589445256ca',
+    target: '_blank',
+  },
 ]
 
 export const QUICK_LINKS = [

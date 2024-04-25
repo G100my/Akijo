@@ -7,21 +7,36 @@ const plugin = require('tailwindcss/plugin')
  */
 const config = {
   content: ['./**/*.{ts,vue}'],
-  plugins: [require('@tailwindcss/typography'),
-  plugin(function ({ matchUtilities }) {
-    matchUtilities(
-      {
-        'multi-line-ellipsis': (value) => ({
-          display: '-webkit-box',
-          '-webkit-box-orient': 'vertical',
-          '-webkit-line-clamp': value,
-          overflow: 'hidden',
-          'text-overflow': 'ellipsis',
-        }),
-      },
-      { values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }
-    )
-  })
+  plugins: [
+    require('@tailwindcss/typography'),
+    plugin(function ({ matchUtilities, addUtilities }) {
+      matchUtilities(
+        {
+          'multi-line-ellipsis': (value) => ({
+            display: '-webkit-box',
+            '-webkit-box-orient': 'vertical',
+            '-webkit-line-clamp': value,
+            overflow: 'hidden',
+            'text-overflow': 'ellipsis',
+          }),
+        },
+        { values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] },
+      ),
+        addUtilities({
+          '.no-scrollbar': {
+            /* IE and Edge */
+            '-ms-overflow-style': 'none',
+
+            /* Firefox */
+            'scrollbar-width': 'none',
+
+            /* Safari and Chrome */
+            '&::-webkit-scrollbar': {
+              display: 'none',
+            },
+          },
+        })
+    }),
   ],
   theme: {
     extend: {
