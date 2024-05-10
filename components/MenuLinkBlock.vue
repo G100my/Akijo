@@ -6,7 +6,7 @@ import ImgShopee from '@/assets/icon/shopee.svg?url'
 <template>
   <a
     class="_nav_item heartbeat"
-    href="https://store.dudooeat.com/order/store/8df9f38a903c442b9f8c1589445256ca"
+    href="https://store.dudooeat.com/orderv2/menu/8df9f38a903c442b9f8c1589445256ca"
     rel="noreferrer noopener"
     target="_blank"
   >
