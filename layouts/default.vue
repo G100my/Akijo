@@ -61,7 +61,12 @@ function handleCloseSidenav() {
 
       <nav class="hidden lg:contents">
         <ul
-          class="w-full flex-[845] flex items-center justify-center border-x-2 border-inherit"
+          class="w-full flex-[845] flex items-center justify-center border-x-2"
+          :class="
+            $route.meta.isNavbarDark
+              ? 'border-design-light'
+              : 'border-slate-950'
+          "
         >
           <li
             v-for="i in ROUTES.pages"

@@ -42,8 +42,8 @@ import { BRANDS } from '@/constants/siteMeta'
               :to="i.link"
               external
               target="_blank"
-              class="w-fit mt-auto border px-14 py-3 border-slate-950 inline-block mx-auto lg:mx-0"
-              >Link</NuxtLink
+              class="w-fit mt-auto border-2 px-14 py-3 border-slate-950 inline-block mx-auto lg:mx-0 hover:bg-design-orange hover:text-white transition-colors tracking-wide"
+              >LINK</NuxtLink
             >
           </div>
         </div>
