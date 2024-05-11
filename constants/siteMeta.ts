@@ -9,6 +9,7 @@ import type { NuxtLinkProps } from '#app'
 
 export const BASE_INFO = {
   address: '高雄市三民區合江街27號',
+  google_navigation_url: 'https://maps.app.goo.gl/Ljc6r3oH5kshpEdRA',
   opening_time: [`日一二三四｜14:00-22:00`, `五六｜14:00-23:00`],
   tel: '073229337',
   tel_display: '07-322-9337',
