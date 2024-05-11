@@ -5,8 +5,8 @@ const modules = [Autoplay, EffectCube]
 <template>
   <section>
     <ContentDoc v-slot="{ doc }">
-      <div class="flex px-[140px] items-center bg">
-        <h2 class="font-black text-40 py-12">{{ doc.title }}</h2>
+      <div>
+        <h2 class="_page_title">{{ doc.title }}</h2>
       </div>
 
       <hr class="border-t-2 border-slate-950" />

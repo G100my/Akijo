@@ -1,39 +1,68 @@
 import mojow from '@/assets/brand/mojow.png'
 import mojowCover from '@/assets/brand/mojow-cover.png'
+import olend from '@/assets/brand/olend.avif'
 import olendCover from '@/assets/brand/olend-cover.jpeg'
 
 import IconShopee from '@/assets/icon/icon_shopee.svg?component'
 import IconIG from '@/assets/icon/icon_ig.svg?component'
+import type { NuxtLinkProps } from '#app'
 
 export const BASE_INFO = {
   address: '高雄市三民區合江街27號',
-  opening_time: `日一二三四｜14:00-22:00\t\t五六｜14:00-23:00`,
-  tel: `(07) 322-9337`,
+  opening_time: [`日一二三四｜14:00-22:00`, `五六｜14:00-23:00`],
+  tel: '073229337',
+  tel_display: '07-322-9337',
+  ig_url: 'https://www.instagram.com/akijo____/',
+  shopee_url: 'https://shopee.tw/sh910904',
+  dudu_take_away_url:
+    'https://store.dudooeat.com/orderv2/menu/8df9f38a903c442b9f8c1589445256ca',
+  ubereat_url:
+    'https://www.ubereats.com/tw/store/%E8%90%A9%E6%9D%A1%E9%9B%86%E7%B5%90%E6%89%80/2N4lhohxXcupRMYrMvwCHg',
 }
 
-export const ROUTES = [
-  { label: 'AKIJO', to: '/index' },
-  { label: 'Menu', to: '/service-menu' },
-  { label: 'Akijo 好朋友', to: '/partner' },
-  { label: '有趣的事', to: '/events' },
-  { label: 'Contacts', to: '/contacts' },
-  {
-    label: '線上點餐',
-    to: 'https://store.dudooeat.com/order/store/8df9f38a903c442b9f8c1589445256ca',
-    target: '_blank',
-  },
-]
+interface RouteItem {
+  label: string
+  to: string
+  target?: NuxtLinkProps['target']
+}
+export const ROUTES: {
+  index: RouteItem
+  portaly: RouteItem
+  pages: RouteItem[]
+} = {
+  index: { label: 'AKIJO', to: '/index' },
+  portaly: { label: 'Portaly', to: '/portaly' },
+  pages: [
+    { label: 'Menu', to: '/service-menu' },
+    { label: 'Partner', to: '/partner' },
+    { label: 'Events', to: '/events' },
+    { label: 'Contacts', to: '/contacts' },
+  ],
+}
 
 export const QUICK_LINKS = [
   {
     label: 'IG',
-    to: 'https://www.instagram.com/akijo____/',
+    to: BASE_INFO.ig_url,
     icon: () => h(IconIG),
   },
   {
     label: 'Shopee',
-    to: 'https://shopee.tw/sh910904',
+    to: BASE_INFO.shopee_url,
     icon: () => h(IconShopee),
+  },
+  {
+    label: '肚肚線上點餐',
+    to: BASE_INFO.dudu_take_away_url,
+    icon: () =>
+      h(
+        'span',
+        {
+          class:
+            'whitespace-break-spaces scale-75 text-center font-black !w-fit flex h-full items-center',
+        },
+        'Take\nout',
+      ),
   },
 ]
 
@@ -59,6 +88,7 @@ export const BRANDS: Brand[] = [
   {
     name: 'Ölend',
     link: 'https://www.olend.net/',
+    logo: olend,
     cover: olendCover,
     description: `來自西班牙品牌｜Ölend
       高飽和色彩、防水輕質尼龍材質
@@ -97,7 +127,7 @@ export const TOP_PRODUCTS: TopProduct[] = [
     description: `玫瑰與荔枝的結合總有著說不出的吸引力
       是帶著紅粉泡泡的 是給人一抹清新的
       ✿浪漫從來都可以自己給自己
-      &nbsp;或是跟我們一起✿`,
+      或是跟我們一起✿`,
   },
   {
     name: '✤荼蘼✤',

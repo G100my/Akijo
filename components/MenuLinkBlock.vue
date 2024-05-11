@@ -2,11 +2,12 @@
 import ImgBlackAkijo from '@/assets/icon/rich_black.png'
 import ImgUberEats from '@/assets/icon/uber_iOS.svg?url'
 import ImgShopee from '@/assets/icon/shopee.svg?url'
+import { BASE_INFO } from '@/constants/siteMeta'
 </script>
 <template>
   <a
     class="_nav_item heartbeat"
-    href="https://store.dudooeat.com/orderv2/menu/8df9f38a903c442b9f8c1589445256ca"
+    :href="BASE_INFO.dudu_take_away_url"
     rel="noreferrer noopener"
     target="_blank"
   >
@@ -15,7 +16,7 @@ import ImgShopee from '@/assets/icon/shopee.svg?url'
   </a>
   <a
     class="_nav_item"
-    href="https://www.ubereats.com/tw/store/%E8%90%A9%E6%9D%A1%E9%9B%86%E7%B5%90%E6%89%80/2N4lhohxXcupRMYrMvwCHg"
+    :href="BASE_INFO.ubereat_url"
     rel="noreferrer noopener"
     target="_blank"
   >
@@ -24,7 +25,7 @@ import ImgShopee from '@/assets/icon/shopee.svg?url'
   </a>
   <a
     class="_nav_item"
-    href="https://shopee.tw/sh910904"
+    :href="BASE_INFO.shopee_url"
     rel="noreferrer noopener"
     target="_blank"
   >

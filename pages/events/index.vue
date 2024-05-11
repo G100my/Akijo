@@ -7,13 +7,15 @@ const { data } = await useAsyncData('events', () =>
 </script>
 <template>
   <section>
-    <div class="flex px-[140px] items-center bg">
-      <h2 class="font-black text-40 py-12">EVENTS</h2>
+    <div>
+      <h2 class="_page_title">EVENTS</h2>
     </div>
 
     <hr class="border-t-2 border-slate-950" />
 
-    <ul class="px-[140px] pt-20 pb-32 grid grid-cols-3 gap-4">
+    <ul
+      class="lg:px-[140px] pt-20 pb-32 space-y-14 lg:space-x-0 lg:grid grid-cols-3 gap-4"
+    >
       <li v-for="i in data" class="bg-design-lightgray">
         <NuxtLink
           :to="i._path!"

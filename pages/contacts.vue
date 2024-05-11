@@ -4,11 +4,13 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
 </script>
 <template>
   <section>
-    <div class="flex px-[140px] items-center bg">
-      <h2 class="font-black text-40 py-12">LOCATIONS</h2>
+    <div>
+      <h2 class="_page_title">LOCATIONS</h2>
     </div>
 
-    <div class="flex h-[440px] border-2 border-slate-950">
+    <div
+      class="flex flex-col lg:flex-row lg:h-[440px] border-2 border-slate-950"
+    >
       <div class="flex-[6] border-r-2 border-slate-950">
         <img
           :src="ImgHero"
@@ -26,7 +28,11 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
         <div class="flex-1">
           <div class="p-10 flex gap-8 h-full">
             <p class="font-bold text-16">營業時間</p>
-            <p class="whitespace-break-spaces">{{ BASE_INFO.opening_time }}</p>
+            <div class="flex flex-col gap-2 lg:gap-8 lg:flex-row">
+              <p v-for="i in BASE_INFO.opening_time">
+                {{ i }}
+              </p>
+            </div>
           </div>
         </div>
         <div class="flex-1">
@@ -37,7 +43,7 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
         </div>
         <div class="flex flex-1">
           <nav
-            class="flex-1 flex border-r-2 border-slate-950 justify-center gap-4 items-center"
+            class="flex-[3] lg:flex-1 flex border-r-2 border-slate-950 lg:justify-center lg:gap-4 items-center justify-around"
           >
             <NuxtLink
               v-for="i in QUICK_LINKS"
@@ -47,7 +53,10 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
               <component :is="i.icon" class="h-8 w-8" />
             </NuxtLink>
           </nav>
-          <button class="flex-1 bg-design-orange font-bold" type="button">
+          <button
+            class="flex-[2] lg:flex-1 bg-design-orange font-bold"
+            type="button"
+          >
             GOOGLE 導航
           </button>
         </div>

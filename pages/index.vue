@@ -31,10 +31,10 @@ onMounted(() => {
       .querySelector('.swiper-slide.swiper-slide-active div._event_container')!
       .getBoundingClientRect()
     document
-      .querySelector('button#next_btn')!
+      .querySelector('#next_btn')!
       .setAttribute('style', `right: ${boundingClientRect.x}px`)
     document
-      .querySelector('button#prev_btn')!
+      .querySelector('#prev_btn')!
       .setAttribute('style', `left: ${boundingClientRect.x}px`)
   })
 
@@ -87,46 +87,52 @@ onMounted(() => {
 </script>
 <template>
   <section>
-    <section
-      class="h-[680px] bg-design-dark relative flex items-center justify-center"
-    >
-      <div class="relative">
-        <Akijo id="Akijo" class="z-10 text-gray-400 relative" />
-        <Sneeze
-          id="Sneeze"
-          class="absolute z-20 -top-10 -left-32 origin-bottom-right"
-        />
-        <Slogan id="Slogan" class="absolute z-0 -right-48 -top-10" />
-        <MtfkFlower id="MtfkFlower" class="absolute z-20 -left-24 bottom-10" />
-        <MtfkStar id="MtfkStar" class="absolute z-0 -right-32 top-28" />
-        <AkijoText
-          id="AkijoText"
-          class="absolute z-10 bottom-0 left-3 right-0 mx-auto origin-bottom"
-        />
-      </div>
-    </section>
-
-    <section
-      class="bg-design-orange text-48 font-black whitespace-nowrap py-7 text-white tracking-wide overflow-hidden"
-    >
+    <header class="flex flex-col min-h-[calc(100dvh-56px)]">
       <div
-        class="marquee -translate-x-10 w-fit animate-[marquee_4s_linear_infinite]"
+        class="flex-1 lg:h-[680px] bg-design-dark relative flex items-center justify-center"
       >
-        <p class="pr-14">{{ sloganText }}</p>
-        <p class="pr-14 absolute translate-x-full inset-y-0 my-auto h-fit">
-          {{ sloganText }}
-        </p>
-        <p class="pr-14 absolute translate-x-[200%] inset-y-0 my-auto h-fit">
-          {{ sloganText }}
-        </p>
-        <p class="pr-14 absolute translate-x-[300%] inset-y-0 my-auto h-fit">
-          {{ sloganText }}
-        </p>
-        <p class="pr-14 absolute translate-x-[400%] inset-y-0 my-auto h-fit">
-          {{ sloganText }}
-        </p>
+        <div class="relative scale-50 sm:scale-75 md:scale-100">
+          <Akijo id="Akijo" class="z-10 text-gray-400 relative" />
+          <Sneeze
+            id="Sneeze"
+            class="absolute z-20 -top-10 -left-32 origin-bottom-right"
+          />
+          <Slogan id="Slogan" class="absolute z-0 -right-48 -top-10" />
+          <MtfkFlower
+            id="MtfkFlower"
+            class="absolute z-20 -left-24 bottom-10"
+          />
+          <MtfkStar id="MtfkStar" class="absolute z-0 -right-32 top-28" />
+          <AkijoText
+            id="AkijoText"
+            class="absolute z-10 bottom-0 left-3 right-0 mx-auto origin-bottom"
+          />
+        </div>
       </div>
-    </section>
+
+      <div
+        class="bg-design-orange text-48 font-black whitespace-nowrap py-7 text-white tracking-wide overflow-hidden"
+      >
+        <div
+          class="marquee -translate-x-10 w-fit animate-[marquee_4s_linear_infinite]"
+        >
+          <p class="pr-14">{{ sloganText }}</p>
+          <p class="pr-14 absolute translate-x-full inset-y-0 my-auto h-fit">
+            {{ sloganText }}
+          </p>
+          <p class="pr-14 absolute translate-x-[200%] inset-y-0 my-auto h-fit">
+            {{ sloganText }}
+          </p>
+          <p class="pr-14 absolute translate-x-[300%] inset-y-0 my-auto h-fit">
+            {{ sloganText }}
+          </p>
+          <p class="pr-14 absolute translate-x-[400%] inset-y-0 my-auto h-fit">
+            {{ sloganText }}
+          </p>
+        </div>
+      </div>
+    </header>
+
     <div>
       <section>
         <h2
@@ -137,9 +143,11 @@ onMounted(() => {
         <div class="pb-[60px] group">
           <Swiper
             class="!pb-20"
-            :slidesPerView="'auto'"
-            :spaceBetween="30"
-            :centeredSlides="true"
+            centeredSlides
+            loop
+            slideToClickedSlide
+            :slidesPerView="1.3"
+            :spaceBetween="120"
             :pagination="{
               clickable: true,
               bulletClass: 'bulletClass',
@@ -151,14 +159,19 @@ onMounted(() => {
               nextEl: '#next_btn',
               prevEl: '#prev_btn',
             }"
-            :loop="true"
+            :breakpoints="{
+              [theme.screens.lg.slice(0, -2)]: {
+                slidesPerView: 1.4,
+              },
+              [theme.screens.xl.slice(0, -2)]: {
+                slidesPerView: 1.8,
+              },
+              [theme.screens['2xl'].slice(0, -2)]: {
+                slidesPerView: 2,
+              },
+            }"
           >
-            <SwiperSlide
-              v-for="i in data"
-              v-slot="{ isActive }"
-              :key="i._id"
-              class="!w-[760px]"
-            >
+            <SwiperSlide v-for="i in data" v-slot="{ isActive }" :key="i._id">
               <EventShell
                 :link="i._path!"
                 :title="i.title!"
@@ -166,7 +179,7 @@ onMounted(() => {
                 :datetime="i.date"
                 :description="i.description"
                 :coverUrl="`/events/${i.cover}`"
-                class="transition-transform"
+                class="transition-transform _event_container"
                 :class="{ 'translate-y-20 grayscale': !isActive }"
                 :isActive="isActive"
               />
@@ -190,23 +203,35 @@ onMounted(() => {
       </section>
 
       <section class="border-slate-950 border-t-2">
-        <h2 class="font-black text-40 py-12 px-[140px]">PRODUCTS</h2>
-        <div class="grid grid-cols-9 grid-rows-2">
+        <h2
+          class="font-black text-40 py-12 text-center lg:text-start lg:px-[140px]"
+        >
+          PRODUCTS
+        </h2>
+        <div class="grid grid-cols-4 grid-rows-4 xl:grid-cols-9 xl:grid-rows-2">
           <div
-            class="col-start-5 col-end-10 row-start-1 row-end-3 group h-full flex flex-col"
+            class="row-start-3 col-span-4 row-span-2 xl:col-start-5 xl:col-end-10 xl:row-start-1 xl:row-end-3 group h-full flex flex-col"
           >
-            <div class="relative">
-              <img :src="TOP_PRODUCT_MAIN.img" :alt="TOP_PRODUCT_MAIN.name" />
+            <div class="relative flex-1">
+              <img
+                :src="TOP_PRODUCT_MAIN.img"
+                :alt="TOP_PRODUCT_MAIN.name"
+                class="h-full"
+              />
               <div
-                class="absolute inset-0 bg-design-orange/75 flex items-center justify-center text-center text-white flex-col px-8 whitespace-pre-line opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                class="absolute inset-0 bg-design-orange/75 flex items-center justify-center text-center text-white flex-col px-1 lg:px-8 whitespace-pre-line opacity-0 group-hover:opacity-100 transition-opacity duration-200"
               >
-                <p class="font-bold text-32">{{ TOP_PRODUCT_MAIN.name }}</p>
-                <p class="text-20 mt-5">{{ TOP_PRODUCT_MAIN.description }}</p>
+                <p class="font-bold text-22 lg:text-32">
+                  {{ TOP_PRODUCT_MAIN.name }}
+                </p>
+                <p class="text-14 lg:text-20 mt-5">
+                  {{ TOP_PRODUCT_MAIN.description }}
+                </p>
               </div>
             </div>
             <a
               href="/service-menu"
-              class="text-center text-white tracking-wider cursor-pointer flex-1 flex items-center justify-center bg-gradient-to-r from-design-orange to-[#F8B62D] h-40"
+              class="text-center text-white tracking-wider cursor-pointer flex items-center justify-center bg-gradient-to-r from-design-orange to-[#F8B62D] h-24 lg:h-40"
               ><span class="font-black font-noto text-32 mr-2"
                 >Menu
                 <IconWrapper
@@ -226,7 +251,7 @@ onMounted(() => {
               class="w-full h-full block"
             />
             <div
-              class="absolute inset-0 bg-design-orange/75 flex items-center justify-center text-center text-white flex-col px-8 whitespace-pre-line opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+              class="absolute inset-0 bg-design-orange/75 flex items-center justify-center text-center text-white flex-col px-1 lg:px-8 whitespace-pre-line opacity-0 group-hover:opacity-100 transition-opacity duration-200"
             >
               <p class="font-bold text-16">{{ i.name }}</p>
               <p class="text-14 mt-2">{{ i.description }}</p>

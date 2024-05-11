@@ -32,16 +32,16 @@ function jumpTo(id: string | number) {
       旋轉外帶杯
     </section> -->
     <div>
-      <section>
-        <div class="flex items-center">
-          <h2 class="px-[140px] font-black text-40 py-12">MENU</h2>
+      <section class="mb-10 xl:mb-auto">
+        <div class="flex flex-col md:flex-row items-center">
+          <h2 class="_page_title">MENU</h2>
           <div
-            class="ml-auto flex flex-wrap gap-8 items-center justify-end no-scrollbar pr-20"
+            class="ml-auto flex-1 flex flex-wrap gap-2 lg:gap-8 items-center justify-center xl:justify-end no-scrollbar xl:pr-20 lg:space-x-4"
           >
             <button
               v-for="i in menu"
               type="button"
-              class="ml-4 relative"
+              class="relative"
               @click="currentCategory = i"
             >
               <ImgMenuBtn2
@@ -64,11 +64,15 @@ function jumpTo(id: string | number) {
         </div>
       </section>
 
-      <section class="border-t-2 border-t-slate-950 border-l-2">
-        <div class="flex w-full h-[660px]">
-          <div class="flex-1 w-1/2 border-r-2 border-r-slate-950">
+      <section
+        class="border-t-2 border-t-slate-950 border-l-2 h-[calc(100dvh-54px)] xl:h-auto"
+      >
+        <div
+          class="flex flex-col xl:flex-row w-full xl:h-[660px] h-full overflow-hidden"
+        >
+          <div class="lg:flex-1 xl:w-1/2 border-r-2 border-r-slate-950">
             <Swiper
-              class="w-full h-full"
+              class="w-full h-80 lg:h-full"
               :slidesPerView="1"
               :spaceBetween="30"
               :pagination="{
@@ -92,19 +96,19 @@ function jumpTo(id: string | number) {
                   <img
                     :src="i.photo_url"
                     :alt="i.name"
-                    class="w-full h-full object-cover"
+                    class="w-full h-full object-contain lg:object-cover"
                   />
                 </div>
               </SwiperSlide>
             </Swiper>
           </div>
 
-          <div class="flex-1 w-1/2 relative flex flex-col">
+          <div class="flex-1 xl:w-1/2 relative flex flex-col overflow-auto">
             <div
-              class="menu-content px-8 pt-12 pb-4 overflow-auto w-full flex-1 relative z-10"
+              class="menu-content px-4 py-6 xl:px-8 xl:pt-12 pb-4 overflow-auto w-full flex-1 relative z-10"
             >
               <div
-                class="ml-auto vertical-lr grid gap-6 grid-cols-[min-content,min-content,1fr] items-center min-w-[70%]"
+                class="ml-auto xl:vertical-lr grid gap-6 grid-cols-[min-content,min-content,1fr] items-center min-w-[70%] overflow-auto"
               >
                 <div
                   v-for="i in currentCategory.items"
@@ -126,12 +130,12 @@ function jumpTo(id: string | number) {
 
             <div class="relative">
               <AkijoWithSneeze
-                class="absolute bottom-5 left-3 drop-shadow-lg"
+                class="absolute bottom-5 right-7 xl:right-auto xl:left-3 drop-shadow-lg"
               />
             </div>
 
             <div
-              class="flex overflow-auto no-scrollbar h-40 border-t-2 border-slate-950"
+              class="hidden xl:flex overflow-auto no-scrollbar h-40 border-t-2 border-slate-950"
             >
               <template v-for="(i, index) in currentItemsWithPhoto" :key="i.id">
                 <img

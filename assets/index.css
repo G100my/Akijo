@@ -12,7 +12,7 @@
   @apply flex gap-4 h-2.5 items-center mx-auto justify-center !bottom-7;
 }
 .horizontalClass_offset {
-  @apply flex gap-4 h-2.5 items-center mx-auto justify-center !bottom-7 !left-[140px] !w-fit;
+  @apply flex gap-4 h-2.5 items-center mx-auto justify-center !bottom-7 inset-x-0 lg:!left-[140px] !w-fit;
 }
 
 /* page transition */
@@ -24,4 +24,8 @@
 .page-leave-to {
   opacity: 0;
   filter: blur(1rem);
+}
+
+._page_title {
+  @apply text-center xl:text-left px-10 xl:px-[140px] font-black text-40 py-5 md:py-12;
 }

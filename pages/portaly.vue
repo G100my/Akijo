@@ -2,6 +2,7 @@
 import anime from 'animejs'
 import ImgBg from 'assets/1696293298652.jpg'
 import ImgAvatar from 'assets/avatar.jpg'
+import { BASE_INFO } from '@/constants/siteMeta'
 
 definePageMeta({
   path: '/',
@@ -29,7 +30,6 @@ const showNotificationBlock = ref(false)
 onMounted(() => {
   showNotificationBlock.value =
     'PushManager' in window && 'serviceWorker' in navigator
-  console.log('🚀 ~ showNotificationBlock:', showNotificationBlock)
 })
 </script>
 <template>
@@ -55,18 +55,15 @@ onMounted(() => {
             <hr />
 
             <nav class="grid grid-cols-2 text-sky-400">
-              <a
-                href="https://www.instagram.com/stories/akijo____/"
-                target="_blank"
-              >
+              <a :href="BASE_INFO.ig_url" target="_blank">
                 <i class="ri-instagram-line text-2xl" />
                 <span class="jf-openhuninn text-1xl align-bottom ml-2"
                   >akijo____</span
                 >
               </a>
-              <a href="tel:073229337">
+              <a :href="`tel:${BASE_INFO.tel}`">
                 <i class="ri-phone-line text-2xl" />
-                <span>07-322-9337</span>
+                <span>{{ BASE_INFO.tel_display }}</span>
                 <p class="text-xs">
                   市話僅限特殊情況聯絡，<br />外帶點餐請使用下方外帶線上連結。
                 </p>
