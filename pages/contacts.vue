@@ -53,13 +53,14 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
               <component :is="i.icon" class="h-8 w-8" />
             </NuxtLink>
           </nav>
-          <a
-            :href="BASE_INFO.google_navigation_url"
+          <NuxtLink
+            :to="BASE_INFO.google_navigation_url"
+            external
             class="flex-[2] lg:flex-1 bg-design-orange font-bold"
             target="_blank"
           >
             GOOGLE 導航
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </div>

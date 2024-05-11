@@ -38,11 +38,12 @@ import { BRANDS } from '@/constants/siteMeta'
               {{ i.description }}
             </p>
 
-            <a
-              :href="i.link"
+            <NuxtLink
+              :to="i.link"
+              external
               target="_blank"
               class="w-fit mt-auto border px-14 py-3 border-slate-950 inline-block mx-auto lg:mx-0"
-              >Link</a
+              >Link</NuxtLink
             >
           </div>
         </div>

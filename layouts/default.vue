@@ -69,13 +69,14 @@ function handleCloseSidenav() {
         </ul>
         <ul class="flex-[320] flex items-center justify-center">
           <li v-for="i in QUICK_LINKS">
-            <a
-              :href="i.to"
+            <NuxtLink
+              :to="i.to"
+              external
               target="_blank"
               class="px-4 aspect-square flex items-center justify-center"
             >
               <component :is="i.icon" class="h-8 w-8" />
-            </a>
+            </NuxtLink>
           </li>
         </ul>
       </nav>

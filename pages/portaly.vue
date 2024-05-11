@@ -55,12 +55,12 @@ onMounted(() => {
             <hr />
 
             <nav class="grid grid-cols-2 text-sky-400">
-              <a :href="BASE_INFO.ig_url" target="_blank">
+              <NuxtLink :to="BASE_INFO.ig_url" target="_blank">
                 <i class="ri-instagram-line text-2xl" />
                 <span class="jf-openhuninn text-1xl align-bottom ml-2"
                   >akijo____</span
                 >
-              </a>
+              </NuxtLink>
               <a :href="`tel:${BASE_INFO.tel}`">
                 <i class="ri-phone-line text-2xl" />
                 <span>{{ BASE_INFO.tel_display }}</span>

@@ -5,28 +5,28 @@ import ImgShopee from '@/assets/icon/shopee.svg?url'
 import { BASE_INFO } from '@/constants/siteMeta'
 </script>
 <template>
-  <a
+  <NuxtLink
     class="_nav_item heartbeat"
-    :href="BASE_INFO.dudu_take_away_url"
-    rel="noreferrer noopener"
+    :to="BASE_INFO.dudu_take_away_url"
+    external
     target="_blank"
   >
     <img :src="ImgBlackAkijo" alt="外帶用線上菜單" />
     <p>外帶用線上菜單</p>
-  </a>
-  <a
+  </NuxtLink>
+  <NuxtLink
     class="_nav_item"
-    :href="BASE_INFO.ubereat_url"
-    rel="noreferrer noopener"
+    :to="BASE_INFO.ubereat_url"
+    external
     target="_blank"
   >
     <img :src="ImgUberEats" alt="Akijo - UberEats order link" />
     <p>Uber Eats 幫你送</p>
-  </a>
-  <a
+  </NuxtLink>
+  <NuxtLink
     class="_nav_item"
-    :href="BASE_INFO.shopee_url"
-    rel="noreferrer noopener"
+    :to="BASE_INFO.shopee_url"
+    external
     target="_blank"
   >
     <img :src="ImgShopee" alt="Akijo - shopee" />
@@ -36,7 +36,7 @@ import { BASE_INFO } from '@/constants/siteMeta'
         Olend 包包這裡有<br />也可以在上面的線上菜單裡看喔！
       </p>
     </div>
-  </a>
+  </NuxtLink>
 </template>
 <style>
 ._nav_item {

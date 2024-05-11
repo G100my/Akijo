@@ -69,7 +69,7 @@ const datetimeString = computed(() => {
           </div>
         </div>
         <button
-          type="button"
+          :to="link"
           class="bg-design-orange mt-auto h-[52px] text-center border-t-2 border-black font-jost font-bold w-full"
         >
           MORE INFO
