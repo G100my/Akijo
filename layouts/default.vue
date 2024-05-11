@@ -63,7 +63,10 @@ function handleCloseSidenav() {
         <ul
           class="w-full flex-[845] flex items-center justify-center border-x-2 border-inherit"
         >
-          <li v-for="i in ROUTES.pages" class="py-3 px-4 whitespace-nowrap">
+          <li
+            v-for="i in ROUTES.pages"
+            class="py-3 px-4 whitespace-nowrap hover:text-design-orange"
+          >
             <NuxtLink :to="i.to" :target="i.target">{{ i.label }}</NuxtLink>
           </li>
         </ul>
@@ -73,7 +76,7 @@ function handleCloseSidenav() {
               :to="i.to"
               external
               target="_blank"
-              class="px-4 aspect-square flex items-center justify-center"
+              class="px-4 aspect-square flex items-center justify-center hover:text-design-orange"
             >
               <component :is="i.icon" class="h-8 w-8" />
             </NuxtLink>

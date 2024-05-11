@@ -87,7 +87,9 @@ onMounted(() => {
 </script>
 <template>
   <section>
-    <header class="flex flex-col min-h-[calc(100dvh-56px)]">
+    <header
+      class="flex flex-col h-[calc(100dvh-56px)] lg:h-[calc(100dvh-94px)]"
+    >
       <div
         class="flex-1 lg:h-[680px] bg-design-dark relative flex items-center justify-center"
       >
@@ -111,7 +113,7 @@ onMounted(() => {
       </div>
 
       <div
-        class="bg-design-orange text-48 font-black whitespace-nowrap py-7 text-white tracking-wide overflow-hidden"
+        class="bg-design-orange text-32 font-black whitespace-nowrap py-7 text-white tracking-wide overflow-hidden"
       >
         <div
           class="marquee -translate-x-10 w-fit animate-[marquee_4s_linear_infinite]"
@@ -187,14 +189,14 @@ onMounted(() => {
             <button
               id="next_btn"
               type="button"
-              class="absolute inset-y-0 z-50 right-0 translate-x-1/2 w-40 -translate-y-4 lg:-translate-y-0"
+              class="absolute inset-y-0 z-50 right-0 translate-x-1/2 w-40 -translate-y-4 lg:-translate-y-0 text-design-green hover:text-design-orange"
             >
               <IconArrowRight class="mx-auto" />
             </button>
             <button
               id="prev_btn"
               type="button"
-              class="absolute inset-y-0 z-50 left-0 -translate-x-1/2 w-40 -translate-y-4 lg:-translate-y-0"
+              class="absolute inset-y-0 z-50 left-0 -translate-x-1/2 w-40 -translate-y-4 lg:-translate-y-0 text-design-green hover:text-design-orange"
             >
               <IconArrowLeft class="mx-auto" />
             </button>
@@ -243,12 +245,12 @@ onMounted(() => {
 
           <div
             v-for="(i, ii) in TOP_PRODUCTS"
-            class="aspect-square w-full object-cover col-span-2 relative group"
+            class="aspect-square w-full object-cover col-span-2 relative group h-full"
           >
             <img
               :src="`/top-products/${i.img}`"
               :alt="i.name"
-              class="w-full h-full block"
+              class="w-full h-full block object-cover"
             />
             <div
               class="absolute inset-0 bg-design-orange/75 flex items-center justify-center text-center text-white flex-col px-1 lg:px-8 whitespace-pre-line opacity-0 group-hover:opacity-100 transition-opacity duration-200"

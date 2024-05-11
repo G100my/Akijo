@@ -44,7 +44,7 @@ const datetimeString = computed(() => {
       class="_event_container flex flex-col lg:flex-row lg:h-[380px] 22xl:h-[500px] border-2 border-black"
     >
       <div class="lg:w-1/2 flex-1 aspect-square">
-        <img :src="coverUrl" :alt="title" class="h-full w-full" />
+        <img :src="coverUrl" :alt="title" class="h-full w-full object-cover" />
       </div>
       <div
         class="lg:w-1/2 flex-1 flex flex-col border-t-2 lg:border-t-0 lg:border-l-2 border-black relative"
@@ -70,7 +70,7 @@ const datetimeString = computed(() => {
         </div>
         <NuxtLink
           :to="link"
-          class="bg-design-orange mt-auto h-[52px] text-center border-t-2 border-black font-jost font-bold w-full flex items-center justify-center"
+          class="bg-design-orange mt-auto h-[52px] text-center border-t-2 border-black font-jost font-bold w-full flex items-center justify-center hover:bg-design-green"
         >
           MORE INFO
         </NuxtLink>
