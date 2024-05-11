@@ -38,7 +38,9 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
         <div class="flex-1">
           <div class="p-10 flex gap-8 h-full">
             <p class="font-bold text-16">聯絡電話</p>
-            <p>{{ BASE_INFO.tel }}</p>
+            <p class="cursor-pointer">
+              <a :href="`tel:${BASE_INFO.tel}`">{{ BASE_INFO.tel_display }}</a>
+            </p>
           </div>
         </div>
         <div class="flex flex-1">
@@ -56,7 +58,7 @@ import { BASE_INFO, QUICK_LINKS } from '@/constants/siteMeta'
           <NuxtLink
             :to="BASE_INFO.google_navigation_url"
             external
-            class="flex-[2] lg:flex-1 bg-design-orange font-bold"
+            class="flex-[2] lg:flex-1 bg-design-orange font-bold flex items-center justify-center"
             target="_blank"
           >
             GOOGLE 導航

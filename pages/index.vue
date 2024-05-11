@@ -187,14 +187,14 @@ onMounted(() => {
             <button
               id="next_btn"
               type="button"
-              class="absolute inset-y-0 z-50 right-0 translate-x-1/2 w-40"
+              class="absolute inset-y-0 z-50 right-0 translate-x-1/2 w-40 -translate-y-4 lg:-translate-y-0"
             >
               <IconArrowRight class="mx-auto" />
             </button>
             <button
               id="prev_btn"
               type="button"
-              class="absolute inset-y-0 z-50 left-0 -translate-x-1/2 w-40"
+              class="absolute inset-y-0 z-50 left-0 -translate-x-1/2 w-40 -translate-y-4 lg:-translate-y-0"
             >
               <IconArrowLeft class="mx-auto" />
             </button>

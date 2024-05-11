@@ -54,7 +54,7 @@ function handleCloseSidenav() {
         class="flex-[320] flex items-center justify-between px-5 lg:justify-center"
       >
         <AkijoH1
-          class="h-1/2 lg:h-auto lg:w-[180px]"
+          class="h-1/2 lg:h-auto lg:w-[180px] cursor-pointer"
           @click="$router.push('/index')"
         />
       </h1>
@@ -98,32 +98,34 @@ function handleCloseSidenav() {
       leaveActiveClass="transition-opacity"
       @afterEnter="startSidenavAnimation"
     >
-      <nav
+      <aside
         v-show="showSidenav"
         class="fixed inset-0 bg-slate-900/50 backdrop-blur grid grid-rows-12 z-40"
         @click="handleCloseSidenav"
       >
-        <ul
+        <nav
           id="sidenav_links"
           class="row-start-4 row-span-6 flex flex-col justify-around gap-1 text-slate-950 font-black text-36"
         >
           <NuxtLink
             :to="ROUTES.index.to"
-            class="flex items-center justify-center w-full h-full bg-design-orange"
+            class="flex items-center justify-center w-full h-full bg-design-orange transition-colors"
+            :class="{ 'text-design-light': $route.path === ROUTES.index.to }"
           >
             <p class="text-center">{{ ROUTES.index.label }}</p>
           </NuxtLink>
           <NuxtLink
             v-for="(i, ii) in ROUTES.pages"
             :to="i.to"
-            class="flex items-center justify-center w-full h-full bg-design-orange"
+            class="flex items-center justify-center w-full h-full bg-design-orange transition-colors"
+            :class="{ 'text-design-light': $route.path === i.to }"
           >
             <p class="text-center">{{ i.label }}</p>
           </NuxtLink>
-        </ul>
+        </nav>
 
         <!-- <div class="absolute inset-0 m-auto"></div> -->
-      </nav>
+      </aside>
     </Transition>
 
     <main class="pt-14 lg:pt-24 flex-1 bg-design-light overflow-hidden">

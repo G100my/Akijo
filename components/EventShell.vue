@@ -68,12 +68,12 @@ const datetimeString = computed(() => {
             <p>{{ description }}</p>
           </div>
         </div>
-        <button
+        <NuxtLink
           :to="link"
-          class="bg-design-orange mt-auto h-[52px] text-center border-t-2 border-black font-jost font-bold w-full"
+          class="bg-design-orange mt-auto h-[52px] text-center border-t-2 border-black font-jost font-bold w-full flex items-center justify-center"
         >
           MORE INFO
-        </button>
+        </NuxtLink>
       </div>
     </div>
   </div>

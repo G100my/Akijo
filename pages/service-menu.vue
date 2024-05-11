@@ -64,15 +64,13 @@ function jumpTo(id: string | number) {
         </div>
       </section>
 
-      <section
-        class="border-t-2 border-t-slate-950 border-l-2 h-[calc(100dvh-54px)] xl:h-auto"
-      >
+      <section class="border-t-2 border-t-slate-950 border-l-2">
         <div
-          class="flex flex-col xl:flex-row w-full xl:h-[660px] h-full overflow-hidden"
+          class="flex flex-col md:flex-row w-full md:h-[660px] h-full overflow-hidden"
         >
-          <div class="lg:flex-1 xl:w-1/2 border-r-2 border-r-slate-950">
+          <div class="md:flex-1 md:w-1/2 border-r-2 border-r-slate-950">
             <Swiper
-              class="w-full h-80 lg:h-full"
+              class="w-full h-80 md:h-full"
               :slidesPerView="1"
               :spaceBetween="30"
               :pagination="{
@@ -88,27 +86,26 @@ function jumpTo(id: string | number) {
               }"
               @swiper="swiper = $event"
             >
-              <SwiperSlide
-                v-for="i in currentItemsWithPhoto"
-                v-slot="{ isActive }"
-              >
+              <SwiperSlide v-for="i in currentItemsWithPhoto">
                 <div class="bg-black w-full h-full">
                   <img
                     :src="i.photo_url"
                     :alt="i.name"
-                    class="w-full h-full object-contain lg:object-cover"
+                    class="w-full h-full object-contain md:object-cover"
                   />
                 </div>
               </SwiperSlide>
             </Swiper>
           </div>
 
-          <div class="flex-1 xl:w-1/2 relative flex flex-col overflow-auto">
+          <div
+            class="flex-1 md:w-1/2 relative flex flex-col overflow-auto min-h-96"
+          >
             <div
-              class="menu-content px-4 py-6 xl:px-8 xl:pt-12 pb-4 overflow-auto w-full flex-1 relative z-10"
+              class="menu-content px-4 py-6 md:px-8 md:pt-12 pb-4 overflow-auto w-full flex-1 relative z-10"
             >
               <div
-                class="ml-auto xl:vertical-lr grid gap-6 grid-cols-[min-content,min-content,1fr] items-center min-w-[70%] overflow-auto"
+                class="ml-auto md:vertical-lr grid gap-6 grid-cols-[min-content,min-content,1fr] items-center min-w-[70%] overflow-auto"
               >
                 <div
                   v-for="i in currentCategory.items"
@@ -135,7 +132,7 @@ function jumpTo(id: string | number) {
             </div>
 
             <div
-              class="hidden xl:flex overflow-auto no-scrollbar h-40 border-t-2 border-slate-950"
+              class="hidden md:flex overflow-auto no-scrollbar h-40 border-t-2 border-slate-950"
             >
               <template v-for="(i, index) in currentItemsWithPhoto" :key="i.id">
                 <img

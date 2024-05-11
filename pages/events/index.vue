@@ -14,7 +14,7 @@ const { data } = await useAsyncData('events', () =>
     <hr class="border-t-2 border-slate-950" />
 
     <ul
-      class="lg:px-[140px] pt-20 pb-32 space-y-14 lg:space-x-0 lg:grid grid-cols-3 gap-4"
+      class="lg:px-[140px] pt-20 pb-32 space-y-14 lg:space-y-0 lg:grid grid-cols-3 gap-4"
     >
       <li v-for="i in data" class="bg-design-lightgray">
         <NuxtLink

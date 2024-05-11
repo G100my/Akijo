@@ -60,7 +60,7 @@ export const QUICK_LINKS = [
         'span',
         {
           class:
-            'whitespace-break-spaces scale-75 text-center font-black !w-fit flex h-full items-center',
+            'whitespace-break-spaces scale-75 text-center font-black !w-fit flex h-full items-center -translate-y-1',
         },
         'Take\nout',
       ),
