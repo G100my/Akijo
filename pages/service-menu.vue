@@ -1,9 +1,14 @@
 <script setup lang="ts">
-import ImgMenuBtn2 from '@/assets/btn_menu02.svg'
 import { Pagination, Navigation } from 'swiper/modules'
 import type { Swiper } from 'swiper'
 import AkijoWithSneeze from '@/assets/akijo.svg'
 import menu from '@/assets/menu.json'
+
+const description = '嘿～這裡是目前有的萩条飲料、甜點、選物線上menu'
+useSeoMeta({
+  ogDescription: description,
+  description: description,
+})
 
 definePageMeta({
   isNavbarDark: true,
@@ -130,7 +135,7 @@ function jumpTo(id: string | number) {
 
             <div v-show="currentCategory.id != '272066'" class="relative">
               <AkijoWithSneeze
-                class="absolute bottom-5 right-7 xl:right-auto xl:left-3 drop-shadow-lg"
+                class="absolute bottom-5 right-7 drop-shadow-lg"
               />
             </div>
 

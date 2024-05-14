@@ -5,8 +5,7 @@ const isDev = process.env.NODE_ENV === 'development' ? true : undefined
 const isProd = process.env.NODE_ENV === 'production' ? true : undefined
 
 const metaTitle = '萩条集結所 Akijo'
-const metaDescription =
-  'Hi, 這裡是 萩条集結所Akijo 傳送門網站，線上菜單、UberEat菜單、還有活動資訊都可以在這裡找到，一起來過萩条生活吧'
+const metaDescription = 'Hi, 這裡是 萩条集結所Akijo，一起來過萩条生活吧'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,

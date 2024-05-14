@@ -41,7 +41,7 @@ const datetimeString = computed(() => {
     </div>
 
     <div
-      class="_event_container flex flex-col lg:flex-row lg:h-[380px] 22xl:h-[500px] border-2 border-black"
+      class="_event_container flex flex-col lg:flex-row lg:h-[380px] border-2 border-black"
     >
       <div class="lg:w-1/2 flex-1 aspect-square">
         <img :src="coverUrl" :alt="title" class="h-full w-full object-cover" />
@@ -51,12 +51,12 @@ const datetimeString = computed(() => {
       >
         <div class="flex-1 pt-3 lg:pt-8 flex flex-col lg:h-[328px]">
           <div class="px-5 lg:px-12">
-            <h3 class="text-26 leading-none 2xl:text-46 font-black">
+            <h3 class="text-26 leading-none font-black">
               {{ title }}
             </h3>
             <h4
               v-if="subtitle"
-              class="text-14 2xl:text-26 text-right lg:text-start text-design-lightgray"
+              class="text-14 text-right lg:text-start text-design-lightgray"
             >
               {{ subtitle }}
             </h4>
@@ -64,7 +64,7 @@ const datetimeString = computed(() => {
 
           <hr class="w-full my-4 border-black border-t-2" />
 
-          <div class="px-5 lg:px-12 overflow-auto flex-1 pb-2 2xl:text-28">
+          <div class="px-5 lg:px-12 overflow-auto flex-1 pb-2">
             <p>{{ description }}</p>
           </div>
         </div>

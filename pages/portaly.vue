@@ -4,8 +4,13 @@ import ImgBg from 'assets/1696293298652.jpg'
 import ImgAvatar from 'assets/avatar.jpg'
 import { BASE_INFO } from '@/constants/siteMeta'
 
+const description = '嘿！這裡是萩条快速傳送門. This page is portaly.'
+useSeoMeta({
+  description,
+  ogDescription: description,
+})
 definePageMeta({
-  path: '/',
+  path: '/portaly',
   layout: 'empty',
 })
 
@@ -41,7 +46,9 @@ onMounted(() => {
       <main class="container h-full max-w-md">
         <div class="pt-5 pb-20 space-y-3">
           <section class="_post_block text-center !pt-3">
-            <h1 class="text-6xl my-5 burnfont">萩条集結所</h1>
+            <h1 class="text-6xl my-5 burnfont">
+              <NuxtLink to="/">萩条集結所 </NuxtLink>
+            </h1>
             <div class="flex justify-around mb-10">
               <img
                 class="w-32 h-32 rounded-full"

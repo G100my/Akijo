@@ -13,8 +13,15 @@ import { theme } from '#tailwind-config'
 import IconWrapper from '@/components/IconWrapper.vue'
 import { TOP_PRODUCTS, TOP_PRODUCT_MAIN } from '@/constants/siteMeta'
 
+const description =
+  '嘿！這裡是萩条集結所的線上空間，有一些些關於我們的資訊，也可以追蹤我們的 IG'
+useSeoMeta({
+  description,
+  ogDescription: description,
+})
+
 definePageMeta({
-  path: '/index',
+  path: '/',
   isNavbarDark: true,
 })
 
