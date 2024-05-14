@@ -38,6 +38,7 @@ export const ROUTES: {
     { label: 'Partner', to: '/partner' },
     { label: 'Events', to: '/events' },
     { label: 'Contacts', to: '/contacts' },
+    { label: 'Portaly', to: '/portaly' },
   ],
 }
 
