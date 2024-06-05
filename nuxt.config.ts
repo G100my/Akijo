@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   ssr: false,
   modules: [
     '@nuxt/content',
+    'nuxt-typed-router',
     '@nuxtjs/tailwindcss',
     'nuxt-typed-router',
     'nuxt-simple-sitemap',
@@ -82,7 +83,6 @@ export default defineNuxtConfig({
   components: [
     { path: '~/content', extensions: ['.md'], prefix: 'Markdown' },
     '~/components',
-    '~/components/ig',
   ],
   vite: {
     vue: {
