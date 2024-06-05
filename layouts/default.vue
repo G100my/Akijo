@@ -55,7 +55,7 @@ function handleCloseSidenav() {
       >
         <AkijoH1
           class="h-1/2 lg:h-auto lg:w-[180px] cursor-pointer"
-          @click="$router.push('/index')"
+          @click="$router.push('/')"
         />
       </h1>
 
