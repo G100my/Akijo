@@ -65,7 +65,7 @@ const datetimeString = computed(() => {
           <hr class="w-full my-4 border-black border-t-2" />
 
           <div class="px-5 lg:px-12 overflow-auto flex-1 pb-2">
-            <p>{{ description }}</p>
+            <p class="whitespace-pre-line">{{ description }}</p>
           </div>
         </div>
         <NuxtLink
