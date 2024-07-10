@@ -9,6 +9,9 @@ const metaDescription = 'Hi, 這裡是 萩条集結所Akijo，一起來過萩条
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  devServer: {
+    port: 2304,
+  },
   modules: [
     '@nuxt/content',
     'nuxt-typed-router',
