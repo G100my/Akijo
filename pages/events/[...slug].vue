@@ -29,10 +29,10 @@ const modules = [Autoplay, EffectCube]
             :modules="modules"
           >
             <SwiperSlide v-for="i in doc.media" :key="i._id">
-              <img
-                :src="`/events/${i}`"
-                :alt="doc.title"
-                class="w-full h-full border-2 border-slate-950"
+              <MediaBlock
+                :src="i"
+                :title="doc.title"
+                class="border-2 border-slate-950"
               />
             </SwiperSlide>
           </Swiper>
