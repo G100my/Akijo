@@ -31,7 +31,7 @@ export const ROUTES: {
   portaly: RouteItem
   pages: RouteItem[]
 } = {
-  index: { label: 'AKIJO', to: '/index' },
+  index: { label: 'AKIJO', to: '/' },
   portaly: { label: 'Portaly', to: '/portaly' },
   pages: [
     { label: 'Menu', to: '/service-menu' },
