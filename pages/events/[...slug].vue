@@ -17,7 +17,7 @@ const modules = [Autoplay, EffectCube]
         class="mx-auto container my-12 border-2 border-slate-950 py-10 px-4 lg:p-12 bg-[#E5E4DE]"
       >
         <div
-          v-if="doc.images?.length"
+          v-if="doc.media?.length"
           class="float-left mr-12 mb-10 max-w-[480px] min-h-80 w-full"
         >
           <Swiper
@@ -28,7 +28,7 @@ const modules = [Autoplay, EffectCube]
             :loop="true"
             :modules="modules"
           >
-            <SwiperSlide v-for="i in doc.images" :key="i._id">
+            <SwiperSlide v-for="i in doc.media" :key="i._id">
               <img
                 :src="`/events/${i}`"
                 :alt="doc.title"
