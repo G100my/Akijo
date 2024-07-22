@@ -22,11 +22,7 @@ const { data } = await useAsyncData('events', () =>
           class="flex flex-col h-full group hover:-translate-x-1 hover:-translate-y-1 transition-transform border-2 border-slate-950"
         >
           <div class="h-64 xl:h-96">
-            <img
-              :src="`/events/${i.cover}`"
-              :alt="i.title"
-              class="object-cover w-full h-full object-center"
-            />
+            <MediaBlock :src="`/events/${i.cover}`" />
           </div>
 
           <div class="relative">
