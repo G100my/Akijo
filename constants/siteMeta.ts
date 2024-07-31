@@ -30,11 +30,9 @@ interface RouteItem {
 }
 export const ROUTES: {
   index: RouteItem
-  portaly: RouteItem
   pages: RouteItem[]
 } = {
   index: { label: 'AKIJO', to: '/' },
-  portaly: { label: 'Portaly', to: '/portaly' },
   pages: [
     { label: 'Menu', to: '/service-menu' },
     { label: 'Partner', to: '/partner' },
@@ -46,22 +44,22 @@ export const ROUTES: {
 
 export const QUICK_LINKS = [
   {
-    label: 'IG',
+    label: 'Instagram',
     to: BASE_INFO.ig_url,
     icon: () => h(IconIG),
   },
   {
-    label: 'Shopee',
+    label: 'Shopee For Sale',
     to: BASE_INFO.shopee_url,
     icon: () => h(IconShopee),
   },
   {
-    label: '7-11 賣貨便',
+    label: '7-11 On Sale',
     to: BASE_INFO.seven_myship_url,
     icon: () => h(IconWrapper, { name: 'truck-line', class: 'text-3xl' }),
   },
   {
-    label: '肚肚線上點餐',
+    label: 'DuDu online menu',
     to: BASE_INFO.dudu_take_away_url,
     icon: () =>
       h(

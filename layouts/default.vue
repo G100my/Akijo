@@ -124,6 +124,14 @@ function handleCloseSidenav() {
             <p class="text-center">{{ ROUTES.index.label }}</p>
           </NuxtLink>
           <NuxtLink
+            v-for="i in QUICK_LINKS"
+            :to="i.to"
+            class="flex items-center justify-center w-full h-full bg-design-orange transition-colors"
+            :class="{ 'text-design-light': $route.path === i.to }"
+          >
+            <p class="text-center">{{ i.label }}</p>
+          </NuxtLink>
+          <NuxtLink
             v-for="(i, ii) in ROUTES.pages"
             :to="i.to"
             class="flex items-center justify-center w-full h-full bg-design-orange transition-colors"
