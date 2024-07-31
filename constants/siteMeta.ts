@@ -6,6 +6,7 @@ import olendCover from '@/assets/brand/olend-cover.jpeg'
 import IconShopee from '@/assets/icon/icon_shopee.svg?component'
 import IconIG from '@/assets/icon/icon_ig.svg?component'
 import type { NuxtLinkProps } from '#app'
+import IconWrapper from '~/components/IconWrapper.vue'
 
 export const BASE_INFO = {
   address: '高雄市三民區合江街27號',
@@ -19,6 +20,7 @@ export const BASE_INFO = {
     'https://store.dudooeat.com/orderv2/menu/8df9f38a903c442b9f8c1589445256ca',
   ubereat_url:
     'https://www.ubereats.com/tw/store/%E8%90%A9%E6%9D%A1%E9%9B%86%E7%B5%90%E6%89%80/2N4lhohxXcupRMYrMvwCHg',
+  seven_myship_url: 'https://myship.7-11.com.tw/general/detail/GM2405156314315',
 }
 
 interface RouteItem {
@@ -54,6 +56,11 @@ export const QUICK_LINKS = [
     icon: () => h(IconShopee),
   },
   {
+    label: '7-11 賣貨便',
+    to: BASE_INFO.seven_myship_url,
+    icon: () => h(IconWrapper, { name: 'truck-line', class: 'text-3xl' }),
+  },
+  {
     label: '肚肚線上點餐',
     to: BASE_INFO.dudu_take_away_url,
     icon: () =>
@@ -61,7 +68,7 @@ export const QUICK_LINKS = [
         'span',
         {
           class:
-            'whitespace-break-spaces scale-75 text-center font-black !w-fit flex h-full items-center -translate-y-1',
+            'whitespace-break-spaces leading-none text-sm text-center font-black !w-fit flex h-full items-center',
         },
         'Take\nout',
       ),

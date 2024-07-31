@@ -244,7 +244,7 @@ onMounted(() => {
               ><span class="font-black font-noto text-32 mr-2"
                 >Menu
                 <IconWrapper
-                  name="ri-arrow-right-line"
+                  name="arrow-right-line"
                   class="h-7 text-28 animate-[ArrowRight_500ms_infinite_alternate_ease-in-out] inline-block"
               /></span>
             </a>

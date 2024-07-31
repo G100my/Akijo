@@ -4,5 +4,5 @@ defineProps<{
 }>()
 </script>
 <template>
-  <i :class="name" />
+  <i :class="'ri-' + name" />
 </template>

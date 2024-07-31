@@ -82,6 +82,7 @@ function handleCloseSidenav() {
               external
               target="_blank"
               class="px-4 aspect-square flex items-center justify-center hover:text-design-orange"
+              :title="i.label"
             >
               <component :is="i.icon" class="h-8 w-8" />
             </NuxtLink>
@@ -162,6 +163,7 @@ function handleCloseSidenav() {
               <NuxtLink
                 :to="i.to"
                 target="_blank"
+                :title="i.label"
                 class="aspect-square flex items-center justify-center px-3"
               >
                 <component :is="i.icon" class="w-8" />
