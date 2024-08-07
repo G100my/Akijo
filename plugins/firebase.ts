@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app'
-import { Messaging, getMessaging, getToken } from 'firebase/messaging'
+import { type Messaging, getMessaging, getToken } from 'firebase/messaging'
 import { SERVICEWORKER_FILE_NAME } from '~/constants'
 import ImgAvatar from '@/assets/avatar.jpg'
 
