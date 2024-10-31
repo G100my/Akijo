@@ -11,11 +11,14 @@
 
 [Netlify](https://www.netlify.com/)
 
+https://akijo.netlify.app
+
 ---
 
-## custome DNS
+地址：高雄市三民區合江街27號
 
-dns1.p03.nsone.net
-dns2.p03.nsone.net
-dns3.p03.nsone.net
-dns4.p03.nsone.net
+---
+
+Main: Akijo 形象官網
+GoogleAppScript: Google sheet 排班工具
+MetaSpark: Instagram 濾鏡\*3
