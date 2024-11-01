@@ -19,6 +19,6 @@ https://akijo.netlify.app
 
 ---
 
-Main: Akijo 形象官網
-GoogleAppScript: Google sheet 排班工具
-MetaSpark: Instagram 濾鏡\*3
+- Main: Akijo 形象官網
+- GoogleAppScript: Google sheet 排班工具
+- MetaSpark: Instagram 濾鏡\*3
