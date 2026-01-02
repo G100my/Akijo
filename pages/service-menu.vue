@@ -72,7 +72,7 @@ function jumpTo(id: string | number) {
         </div>
       </section>
 
-      <section class="border-t-2 border-t-slate-950 border-l-2">
+      <section class="border-t-2 border-t-slate-950 border-l-2 mt-4 md:mt-0">
         <div
           class="flex flex-col md:flex-row w-full md:h-[660px] h-full overflow-hidden"
         >

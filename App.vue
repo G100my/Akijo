@@ -16,7 +16,7 @@ const showModal = ref(true)
   >
     <div
       v-if="showModal"
-      class="fixed inset-0 flex items-center justify-center bg-design-orange/50"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-design-orange/50"
       @click="showModal = false"
     >
       <div class="max-w-sm bg-design-light/80 space-y-2 p-4 rounded-lg">
