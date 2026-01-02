@@ -76,7 +76,9 @@ function jumpTo(id: string | number) {
         <div
           class="flex flex-col md:flex-row w-full md:h-[660px] h-full overflow-hidden"
         >
-          <div class="md:flex-1 md:w-1/2 border-r-2 border-r-slate-950">
+          <div
+            class="md:flex-1 md:w-1/2 max-w-2xl border-r-2 border-r-slate-950"
+          >
             <Swiper
               class="w-full h-80 md:h-full"
               :slidesPerView="1"
